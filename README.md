@@ -12,7 +12,8 @@
 
 <p align="center">
   <a href="https://profiles.wordpress.org/xaviermsd/"><img src="assets/wordpress.png" height="44" alt="WordPress.org profile"></a>&nbsp;
-  <a href="https://www.youtube.com/channel/UCZvYHzXxzi03BO-cS0dFTzg"><img src="assets/youtube.png" height="44" alt="Watch on YouTube"></a>
+  <a href="https://www.youtube.com/@harshprajapatiofficial"><img src="assets/youtube.png" height="44" alt="Watch on YouTube"></a>&nbsp;
+  <a href="https://www.instagram.com/harshprajapatiofficial/"><img src="assets/instagram.png" height="44" alt="Follow on Instagram"></a>
 </p>
 
 ## My WordPress plugins
