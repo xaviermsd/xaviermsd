@@ -54,7 +54,7 @@ Both are free on WordPress.org and open source here.
 
 Most of my client work lives in private repos. A few things I've built lately:
 
-- CRMs for order tracking, phone bookings, project operations and a construction firm
+- CRMs for order tracking, project operations and a construction firm
 - A freelance work app with time tracking, invoicing and a client portal
 - A browser app that sets up a wireless keyboard over WebHID, no install needed
 - A video captioning tool for Gujarati, Hindi and 30+ more languages
