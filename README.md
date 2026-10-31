@@ -57,7 +57,7 @@ Most of my client work lives in private repos. A few things I've built lately:
 
 - CRMs for order tracking, project operations and a construction firm
 - A freelance work app with time tracking, invoicing and a client portal
-- A browser app that sets up a wireless keyboard over WebHID, no install needed
+- A browser app that sets up a wireless keyboard over WebHID, no install needed ([try it](https://ronin.xaviermsd.workers.dev/) · [code](https://github.com/xaviermsd/evofox-ronin-configurator))
 - A video captioning tool for Gujarati, Hindi and 30+ more languages
 - WordPress tools that let AI assistants manage Avada and Elementor sites
 
