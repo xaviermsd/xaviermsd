@@ -6,7 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="https://img.shields.io/badge/LinkedIn-Message%20me-2de2e6?style=for-the-badge&logo=linkedin&logoColor=2de2e6&labelColor=061019" alt="LinkedIn"></a>
+  <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="https://img.shields.io/badge/WhatsApp-Message%20me-c6ff3d?style=for-the-badge&logo=whatsapp&logoColor=c6ff3d&labelColor=061019" alt="Message me on WhatsApp"></a>
+  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2de2e6?style=for-the-badge&logo=linkedin&logoColor=2de2e6&labelColor=061019" alt="LinkedIn"></a>
   <a href="https://profiles.wordpress.org/xaviermsd/"><img src="https://img.shields.io/badge/WordPress.org-xaviermsd-c6ff3d?style=for-the-badge&logo=wordpress&logoColor=c6ff3d&labelColor=061019" alt="WordPress.org profile"></a>
   <a href="https://www.youtube.com/channel/UCZvYHzXxzi03BO-cS0dFTzg"><img src="https://img.shields.io/badge/YouTube-Tutorials-f2fbff?style=for-the-badge&logo=youtube&logoColor=f2fbff&labelColor=061019" alt="YouTube tutorials"></a>
 </p>
@@ -62,4 +63,4 @@ React.js, Next.js, TypeScript, Tailwind CSS, Node.js, Supabase, PostgreSQL, MySQ
 
 ## Work with me
 
-I've been a web developer since 2018 and freelancing since 2022. I'm open to one-off builds and long-term work. Have a project in mind? [Message me on LinkedIn](https://www.linkedin.com/in/iamharshprajapati/) and I'll reply within a day.
+I've been a web developer since 2018 and freelancing since 2022. I'm open to one-off builds and long-term work. Have a project in mind? [Message me on WhatsApp](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.) or [LinkedIn](https://www.linkedin.com/in/iamharshprajapati/) and I'll reply within a day.
