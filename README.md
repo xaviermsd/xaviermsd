@@ -6,10 +6,13 @@
 </p>
 
 <p align="center">
-  <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="https://img.shields.io/badge/WhatsApp-Message%20me-c6ff3d?style=for-the-badge&logo=whatsapp&logoColor=c6ff3d&labelColor=061019" alt="Message me on WhatsApp"></a>
-  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2de2e6?style=for-the-badge&logo=linkedin&logoColor=2de2e6&labelColor=061019" alt="LinkedIn"></a>
-  <a href="https://profiles.wordpress.org/xaviermsd/"><img src="https://img.shields.io/badge/WordPress.org-xaviermsd-c6ff3d?style=for-the-badge&logo=wordpress&logoColor=c6ff3d&labelColor=061019" alt="WordPress.org profile"></a>
-  <a href="https://www.youtube.com/channel/UCZvYHzXxzi03BO-cS0dFTzg"><img src="https://img.shields.io/badge/YouTube-Tutorials-f2fbff?style=for-the-badge&logo=youtube&logoColor=f2fbff&labelColor=061019" alt="YouTube tutorials"></a>
+  <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/whatsapp.png" height="44" alt="Chat on WhatsApp"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/linkedin.png" height="44" alt="Connect on LinkedIn"></a>
+</p>
+
+<p align="center">
+  <a href="https://profiles.wordpress.org/xaviermsd/"><img src="assets/wordpress.png" height="44" alt="WordPress.org profile"></a>&nbsp;
+  <a href="https://www.youtube.com/channel/UCZvYHzXxzi03BO-cS0dFTzg"><img src="assets/youtube.png" height="44" alt="Watch on YouTube"></a>
 </p>
 
 ## My WordPress plugins
