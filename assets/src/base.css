@@ -1,0 +1,78 @@
+/* Profile README visuals. Same look as the portfolio carousels and videos:
+   ink #080808, lime #d6ff36, warm paper #f7f8f4, lilac #e5ddff, thick ink borders, hard offset shadows, pills.
+   Every visual is an opaque card with rounded corners, so it reads the same in GitHub light and dark mode. */
+:root {
+	--lime: #d6ff36; --lime-soft: #f1fcc6; --ink: #080808; --paper: #f7f8f4; --muted: #4f5866; --lilac: #e5ddff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: transparent; }
+body { font-family: "Inter", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; padding: 20px; }
+em { font-style: normal; }
+.shot { position: relative; overflow: hidden; margin-bottom: 40px; border: 4px solid var(--ink); border-radius: 30px;
+	background: radial-gradient(700px 520px at 0% 0%, rgba(214,255,54,.45), transparent 70%),
+	            radial-gradient(680px 560px at 100% 100%, rgba(190,172,255,.40), transparent 70%), var(--paper); }
+.shot.dark { background: radial-gradient(760px 560px at 100% 0%, rgba(214,255,54,.20), transparent 70%), var(--ink); color: #fff; border-color: var(--lime); }
+
+/* shared bits */
+.av { display: block; border-radius: 50%; object-fit: cover; border: 5px solid var(--lime); box-shadow: 0 0 0 3px var(--ink); }
+.dark .av { box-shadow: 0 0 0 3px #fff; }
+.kicker { display: inline-block; font: 800 17px "Inter"; letter-spacing: 1.7px; text-transform: uppercase; background: var(--lilac); border: 3px solid var(--ink); border-radius: 999px; padding: 8px 18px; box-shadow: 4px 4px 0 var(--ink); white-space: nowrap; }
+.kicker.lime { background: var(--lime-soft); }
+.dark .kicker { background: var(--lime); color: var(--ink); border-color: var(--lime); box-shadow: none; }
+.pills { display: flex; gap: 12px; flex-wrap: wrap; }
+.pills span { font: 800 22px "Plus Jakarta Sans"; border: 3px solid var(--ink); border-radius: 999px; padding: 8px 20px; background: #fff; box-shadow: 4px 4px 0 var(--ink); white-space: nowrap; }
+.pills span:first-child { background: var(--lime); }
+.card { position: absolute; border: 4px solid var(--ink); border-radius: 22px; box-shadow: 10px 10px 0 var(--ink); overflow: hidden; background: #fff; }
+.card img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: left top; }
+.card.phone { border-radius: 30px; }
+.card.phone img { object-position: center top; }
+.hl { background: var(--lime); border: 4px solid var(--ink); border-radius: 18px; padding: 0 14px 4px; box-shadow: 7px 7px 0 var(--ink); display: inline-block; }
+
+/* ---------- hero (1200 x 600) ---------- */
+.hero { width: 1200px; height: 600px; }
+.hero .top { position: absolute; left: 64px; right: 64px; top: 44px; display: flex; align-items: center; gap: 24px; }
+.hero .top .av { width: 112px; height: 112px; flex: none; }
+.hero .top b { display: block; font: 800 46px "Plus Jakarta Sans"; letter-spacing: -1.4px; }
+.hero .top span { display: block; font: 600 22px "Inter"; color: var(--muted); margin-top: 4px; }
+.hero .top .sp { flex: 1; }
+.hero .top .open { display: flex; align-items: center; gap: 10px; font: 800 18px "Inter"; letter-spacing: 1.4px; text-transform: uppercase; background: var(--ink); color: var(--lime); border-radius: 999px; padding: 12px 22px; }
+.hero .top .open i { width: 12px; height: 12px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 4px rgba(214,255,54,.25); }
+.hero h1 { position: absolute; left: 64px; right: 40px; top: 190px; font: 800 74px/1.06 "Plus Jakarta Sans"; letter-spacing: -2.8px; }
+.hero h1 .hl { margin-top: 12px; }
+.hero .sub { position: absolute; left: 64px; right: 120px; top: 402px; font: 500 27px/1.4 "Inter"; color: #262b33; }
+.hero .pills { position: absolute; left: 64px; right: 40px; bottom: 42px; }
+
+/* ---------- project covers (1200 x 600) ---------- */
+.work { width: 1200px; height: 600px; }
+.work .txt { position: absolute; left: 60px; top: 56px; width: 470px; bottom: 56px; display: flex; flex-direction: column; }
+.work .mark { display: flex; align-items: center; gap: 16px; margin-bottom: 26px; }
+.work .mark img { width: 64px; height: 64px; border-radius: 16px; display: block; }
+.work .mark .glyph { width: 64px; height: 64px; border-radius: 16px; display: grid; place-items: center; background: var(--lime); border: 3px solid var(--ink); }
+.work .mark .glyph svg { width: 34px; height: 34px; }
+.work h2 { font: 800 56px/1.04 "Plus Jakarta Sans"; letter-spacing: -2px; margin-top: 26px; }
+.work h2.long { font-size: 46px; letter-spacing: -1.6px; }
+.work .line { font: 500 25px/1.38 "Inter"; color: #262b33; margin-top: 16px; }
+.work .pills { margin-top: auto; }
+.work .pills span { font-size: 20px; padding: 7px 16px; }
+
+/* ---------- closing CTA (1200 x 440) ---------- */
+.cta { width: 1200px; height: 440px; }
+.cta .kicker { position: absolute; left: 64px; top: 56px; }
+.cta h2 { position: absolute; left: 64px; top: 124px; width: 760px; font: 800 66px/1.08 "Plus Jakarta Sans"; letter-spacing: -2.4px; }
+.cta h2 .hl { margin-top: 14px; color: var(--ink); box-shadow: 7px 7px 0 #fff; border-color: var(--ink); }
+.cta .sub { position: absolute; left: 64px; top: 340px; width: 720px; font: 500 24px/1.4 "Inter"; color: rgba(255,255,255,.74); }
+.cta .me { position: absolute; right: 64px; top: 92px; width: 270px; text-align: center; }
+.cta .me .av { width: 180px; height: 180px; margin: 0 auto; border-width: 7px; }
+.cta .me b { display: block; font: 800 30px "Plus Jakarta Sans"; letter-spacing: -.6px; margin-top: 22px; }
+.cta .me span { display: block; font: 600 19px/1.4 "Inter"; color: rgba(255,255,255,.66); margin-top: 6px; }
+
+/* ---------- contact buttons (transparent outside the pill) ---------- */
+.bw { display: inline-block; padding: 0 8px 8px 0; }
+.btns { display: flex; flex-direction: column; gap: 30px; align-items: flex-start; }
+.btn { display: inline-flex; align-items: center; gap: 14px; height: 76px; padding: 0 30px 0 14px;
+	border: 4px solid var(--ink); border-radius: 999px; background: #fff; box-shadow: 6px 6px 0 var(--ink);
+	font: 800 27px "Plus Jakarta Sans"; letter-spacing: -.4px; white-space: nowrap; }
+.btn .ic { width: 48px; height: 48px; flex: none; display: grid; place-items: center; border-radius: 50%; }
+.btn .ic svg { width: 48px; height: 48px; display: block; }
+.btn.primary { background: var(--lime); }
+.btn.dark { background: var(--ink); color: var(--lime); }
