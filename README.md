@@ -43,6 +43,31 @@ Both are free on WordPress.org and open source here.
   </tr>
 </table>
 
+## My web apps
+
+Open source and built for real users.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xaviermsd/capmitra-app"><img src="https://raw.githubusercontent.com/xaviermsd/capmitra-app/main/docs/readme/social-preview.png" alt="CapMitra Edit"></a>
+      <h3>CapMitra Edit</h3>
+      A caption and video editor that runs in the browser. Word-by-word captions in 34 languages, including Hindi, Gujarati and Hinglish, 46 animated templates, effects, a timeline and MP4 export up to 4K. Your video never leaves your device.
+      <br><br>
+      <a href="https://capmitra-app.vercel.app">Live app (invite-only beta)</a> ·
+      <a href="https://github.com/xaviermsd/capmitra-app">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://ronin.xaviermsd.workers.dev/"><img src="https://raw.githubusercontent.com/xaviermsd/evofox-ronin-configurator/main/assets/readme/banner.webp" alt="EvoFox Ronin Web Configurator"></a>
+      <h3>EvoFox Ronin Web Configurator</h3>
+      Set up the EvoFox Ronin wireless keyboard right in the browser over WebHID. All 21 RGB effects with a live preview, per-key colour, key remapping, profiles and every Fn shortcut, with no install.
+      <br><br>
+      <a href="https://ronin.xaviermsd.workers.dev/">Live app</a> ·
+      <a href="https://github.com/xaviermsd/evofox-ronin-configurator">Code</a>
+    </td>
+  </tr>
+</table>
+
 ## What I build
 
 - Business websites on WordPress, with custom themes, WooCommerce and Elementor
@@ -57,8 +82,6 @@ Most of my client work lives in private repos. A few things I've built lately:
 
 - CRMs for order tracking, project operations and a construction firm
 - A freelance work app with time tracking, invoicing and a client portal
-- A browser app that sets up a wireless keyboard over WebHID, no install needed ([try it](https://ronin.xaviermsd.workers.dev/) · [code](https://github.com/xaviermsd/evofox-ronin-configurator))
-- A video captioning tool for Gujarati, Hindi and 30+ more languages
 - WordPress tools that let AI assistants manage Avada and Elementor sites
 
 ## Tech I use
