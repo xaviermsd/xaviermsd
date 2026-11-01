@@ -20,53 +20,41 @@
 
 Both are free on WordPress.org and open source here.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://wordpress.org/plugins/menunest-smart-menu-manager/"><img src="https://raw.githubusercontent.com/xaviermsd/menunest-smart-menu-manager/main/.wordpress-org/banner-772x250.jpg" alt="MenuNest: Smart Menu Manager"></a>
-      <h3>MenuNest: Smart Menu Manager</h3>
-      Build big WordPress menus without dragging. Add items under any parent, paste a whole list at once, and back up, restore, import and export menus with a preview first.
-      <br><br>
-      <a href="https://wordpress.org/plugins/menunest-smart-menu-manager/">WordPress.org</a> ·
-      <a href="https://github.com/xaviermsd/menunest-smart-menu-manager">Code</a> ·
-      <a href="https://www.youtube.com/watch?v=SljKJXaSWe8">Video tutorial</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://wordpress.org/plugins/fieldpilot-for-acf/"><img src="https://raw.githubusercontent.com/xaviermsd/fieldpilot-for-acf/main/.wordpress-org/banner-772x250.jpg" alt="FieldPilot: AI & JSON Copilot for ACF"></a>
-      <h3>FieldPilot: AI &amp; JSON Copilot for ACF</h3>
-      Build ACF field groups from your AI's JSON. Copy a prompt with your real field names, paste the reply back, see the exact diff and apply. Every change can be rolled back.
-      <br><br>
-      <a href="https://wordpress.org/plugins/fieldpilot-for-acf/">WordPress.org</a> ·
-      <a href="https://github.com/xaviermsd/fieldpilot-for-acf">Code</a> ·
-      <a href="https://youtu.be/FjoeySz05xw">Video tutorial</a>
-    </td>
-  </tr>
-</table>
+<a href="https://wordpress.org/plugins/menunest-smart-menu-manager/"><img src="https://raw.githubusercontent.com/xaviermsd/menunest-smart-menu-manager/main/.wordpress-org/banner-772x250.jpg" alt="MenuNest: Smart Menu Manager"></a>
+
+### MenuNest: Smart Menu Manager
+
+Build big WordPress menus without dragging. Add items under any parent, paste a whole list at once, and back up, restore, import and export menus with a preview first.
+
+<a href="https://wordpress.org/plugins/menunest-smart-menu-manager/">WordPress.org</a> · <a href="https://github.com/xaviermsd/menunest-smart-menu-manager">Code</a> · <a href="https://www.youtube.com/watch?v=SljKJXaSWe8">Video tutorial</a>
+
+<a href="https://wordpress.org/plugins/fieldpilot-for-acf/"><img src="https://raw.githubusercontent.com/xaviermsd/fieldpilot-for-acf/main/.wordpress-org/banner-772x250.jpg" alt="FieldPilot: AI & JSON Copilot for ACF"></a>
+
+### FieldPilot: AI &amp; JSON Copilot for ACF
+
+Build ACF field groups from your AI's JSON. Copy a prompt with your real field names, paste the reply back, see the exact diff and apply. Every change can be rolled back.
+
+<a href="https://wordpress.org/plugins/fieldpilot-for-acf/">WordPress.org</a> · <a href="https://github.com/xaviermsd/fieldpilot-for-acf">Code</a> · <a href="https://youtu.be/FjoeySz05xw">Video tutorial</a>
 
 ## My web apps
 
 Open source and built for real users.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/xaviermsd/capmitra-app"><img src="https://raw.githubusercontent.com/xaviermsd/capmitra-app/main/docs/readme/social-preview.png" alt="CapMitra Edit"></a>
-      <h3>CapMitra Edit</h3>
-      A caption and video editor that runs in the browser. Word-by-word captions in 34 languages, including Hindi, Gujarati and Hinglish, 46 animated templates, effects, a timeline and MP4 export up to 4K. Your video never leaves your device.
-      <br><br>
-      <a href="https://capmitra-app.vercel.app">Live app (invite-only beta)</a> ·
-      <a href="https://github.com/xaviermsd/capmitra-app">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://ronin.xaviermsd.workers.dev/"><img src="https://raw.githubusercontent.com/xaviermsd/evofox-ronin-configurator/main/assets/readme/banner.webp" alt="EvoFox Ronin Web Configurator"></a>
-      <h3>EvoFox Ronin Web Configurator</h3>
-      Set up the EvoFox Ronin wireless keyboard right in the browser over WebHID. All 21 RGB effects with a live preview, per-key colour, key remapping, profiles and every Fn shortcut, with no install.
-      <br><br>
-      <a href="https://ronin.xaviermsd.workers.dev/">Live app</a> ·
-      <a href="https://github.com/xaviermsd/evofox-ronin-configurator">Code</a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/xaviermsd/capmitra-app"><img src="https://raw.githubusercontent.com/xaviermsd/capmitra-app/main/docs/readme/social-preview.png" alt="CapMitra Edit"></a>
+
+### CapMitra Edit
+
+A caption and video editor that runs in the browser. Word-by-word captions in 34 languages, including Hindi, Gujarati and Hinglish, 46 animated templates, effects, a timeline and MP4 export up to 4K. Your video never leaves your device.
+
+<a href="https://capmitra-app.vercel.app">Live app (invite-only beta)</a> · <a href="https://github.com/xaviermsd/capmitra-app">Code</a>
+
+<a href="https://ronin.xaviermsd.workers.dev/"><img src="https://raw.githubusercontent.com/xaviermsd/evofox-ronin-configurator/main/assets/readme/banner.webp" alt="EvoFox Ronin Web Configurator"></a>
+
+### EvoFox Ronin Web Configurator
+
+Set up the EvoFox Ronin wireless keyboard right in the browser over WebHID. All 21 RGB effects with a live preview, per-key colour, key remapping, profiles and every Fn shortcut, with no install.
+
+<a href="https://ronin.xaviermsd.workers.dev/">Live app</a> · <a href="https://github.com/xaviermsd/evofox-ronin-configurator">Code</a>
 
 ## What I build
 
