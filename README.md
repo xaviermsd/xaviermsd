@@ -44,7 +44,7 @@ Open source and built for real users.
 
 <a href="https://github.com/xaviermsd/capmitra-app"><img src="https://raw.githubusercontent.com/xaviermsd/capmitra-app/main/docs/readme/social-preview.png" alt="CapMitra Edit"></a>
 
-A caption and video editor that runs in the browser. Word-by-word captions in 34 languages, including Hindi, Gujarati and Hinglish, 46 animated templates, effects, a timeline and MP4 export up to 4K. Your video never leaves your device.
+Edit video, audio and captions in one place, right in the browser. A multi-track timeline with effects and transitions, noise reduction and music, word-by-word captions in 34 languages, and MP4 export up to 4K. Your video never leaves your device.
 
 <a href="https://capmitra-app.vercel.app">Live app (invite-only beta)</a> · <a href="https://github.com/xaviermsd/capmitra-app">Code</a>
 
