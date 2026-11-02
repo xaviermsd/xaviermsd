@@ -76,3 +76,6 @@ em { font-style: normal; }
 .btn .ic svg { width: 48px; height: 48px; display: block; }
 .btn.primary { background: var(--lime); }
 .btn.dark { background: var(--ink); color: var(--lime); }
+
+.work .mark .logo-plate { height: 64px; padding: 6px 12px; border-radius: 16px; background: #fff; border: 3px solid var(--ink); display: flex; align-items: center; }
+.work .mark .logo-plate img { width: auto; height: 46px; border-radius: 0; }
