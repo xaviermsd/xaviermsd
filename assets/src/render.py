@@ -18,7 +18,7 @@ only = set(sys.argv[1:])
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={'width': 1300, 'height': 900}, device_scale_factor=2)
+    page = browser.new_page(viewport={'width': 1300, 'height': 8000}, device_scale_factor=2)
     page.goto((HERE / 'visuals.html').as_uri())
     page.wait_for_load_state('networkidle')
     page.evaluate('document.fonts.ready')
