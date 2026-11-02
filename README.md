@@ -29,6 +29,32 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ## Featured work
 
+### Projectly: time and project portal for a creative studio
+
+<img src="assets/work-projectly.png" width="100%" alt="Case study: Projectly, a time and project portal built for a creative studio, showing the dashboard with hours logged, website health and open tasks with demo data.">
+
+**Your team sells time. When hours live in notebooks and chat threads, some of them never reach an invoice.**
+
+**Case study · client project for a creative studio, shown under the portfolio name Projectly.** One portal where every billable hour is tracked, from the task it belongs to all the way to the client report. No more chasing timesheets at the end of the month, and no more guessing what a project really cost.
+
+- A live timer on every task, plus quick manual entries
+- Tasks with checklists, owners and repeating reminders
+- Projects, budgets, a calendar and filters by client, person and category
+- Monthly reports and client-ready PDF reports
+- Website Health reviews, an audit log and role-based access from admin to view-only client
+
+> "Harsh did an excellent job building Projectly CRM. The platform is well-structured, easy to use, and covers everything we needed to manage projects and track time efficiently. Great communication and attention to detail throughout the process. Highly recommended!"
+>
+> **Anonymous Client** · USA
+
+**Stack:** JavaScript · PostgreSQL · Row Level Security
+
+Screens show demo data. The code and live system are private.
+
+**Run an agency or studio that bills by the hour? I'll build a portal around how your team already works, so every hour gets billed. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
+
+---
+
 ### UCS CRM: operations CRM for UCS Projects
 
 <img src="assets/work-crm.png" width="100%" alt="Case study: UCS CRM, an operations CRM built for UCS Projects, a construction and interiors firm, showing a site stage checklist and a billing trend dashboard with demo data.">
