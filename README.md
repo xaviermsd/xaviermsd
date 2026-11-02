@@ -41,6 +41,10 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 - Role-based access, so each person sees only what they need
 - Live dashboards for collections, margins and project status
 
+> "Harsh Prajapati did an excellent job developing the CRM for UCS Projects. His understanding, professionalism, and attention to detail made the entire process smooth. Highly recommended for his quality work and dedication. Great experience!"
+>
+> **UCS Projects** · Client: Mehul Sharma
+
 **Stack:** Next.js · React · TypeScript · Tailwind CSS
 
 Screens show demo data. The code and live system are private.
