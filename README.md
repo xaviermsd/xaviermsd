@@ -29,11 +29,11 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ## Featured work
 
-### Operations CRM for a construction and interiors firm
+### Operations CRM for UCS Projects
 
-<img src="assets/work-crm.png" width="100%" alt="Case study: an operations CRM for a construction and interiors firm, showing a site stage checklist and a billing trend dashboard with demo data.">
+<img src="assets/work-crm.png" width="100%" alt="Case study: an operations CRM built for UCS Projects, a construction and interiors firm, showing a site stage checklist and a billing trend dashboard with demo data.">
 
-**Case study · private client project.** One system that follows every project from the first quotation to the final handover, so the office and the site team work from the same data.
+**Case study · client project for [UCS Projects](https://ucsprojects.in/) ([@ucsprojects](https://www.instagram.com/ucsprojects)), a construction and interiors firm. Client: Mehul Sharma.** One system that follows every project from the first quotation to the final handover, so the office and the site team work from the same data.
 
 - Quotations through to payments and collections
 - Projects, site execution and daily site diaries
