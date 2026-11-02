@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Email signature</title>
+<!-- Open this file in Chrome or Edge, press "Copy signature" and paste it into Gmail, Outlook or Apple Mail.
+     The signature itself lives in the <template> below: tables and inline styles only, so mail clients keep it.
+     Images load from the profile repo on GitHub, so they show once assets/signature/ is pushed. -->
+<style>
+	:root { --lime: #d6ff36; --ink: #080808; --paper: #f7f8f4; }
+	* { box-sizing: border-box; }
+	@media (max-width: 480px) { body { padding: 20px 12px 48px !important; } .mail { padding: 18px 14px !important; } }
+	body { margin: 0; padding: 32px 16px 60px; background: var(--paper); color: var(--ink); font: 500 15px/1.5 "Segoe UI", Helvetica, Arial, sans-serif; }
+	main { max-width: 760px; margin: 0 auto; }
+	h1 { font-size: 28px; letter-spacing: -.6px; margin: 0 0 6px; }
+	p.lead { margin: 0 0 24px; color: #4f5866; }
+	.bar { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+	button { font: 800 15px "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 10px 20px; box-shadow: 4px 4px 0 var(--ink); cursor: pointer; }
+	button.primary { background: var(--lime); }
+	button:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+	.mail { background: #fff; border: 3px solid var(--ink); border-radius: 18px; padding: 26px 24px; margin-bottom: 18px; overflow-x: auto; }
+	.mail .label { font: 800 12px "Segoe UI", sans-serif; letter-spacing: 1.4px; text-transform: uppercase; color: #8a919c; margin-bottom: 18px; }
+	.mail .body { margin-bottom: 22px; }
+	/* rough copy of what Gmail and Outlook do to text in dark mode */
+	.mail.dark { background: #1f1f1f; }
+	.mail.dark .body, .mail.dark .sig td, .mail.dark .sig span, .mail.dark .sig a { color: #e8eaed !important; }
+	.mail.dark .sig td.tag { color: #080808 !important; }
+	.mail.dark .sig a span { color: #aab1bc !important; }
+	#toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--lime); font-weight: 800; padding: 10px 18px; border-radius: 999px; opacity: 0; transition: opacity .2s; }
+	#toast.show { opacity: 1; }
+</style>
+</head><body>
+<main>
+	<h1>Email signature</h1>
+	<p class="lead">Press Copy signature, then paste it into your mail app's signature box. Works in Gmail, Outlook (new, web and classic) and Apple Mail.</p>
+	<div class="bar">
+		<button class="primary" id="copy">Copy signature</button>
+		<button id="copy-html">Copy HTML code</button>
+	</div>
+	<div class="mail"><div class="label">Light mode</div><div class="body">Thanks, talk soon.</div><div class="slot"></div></div>
+	<div class="mail dark"><div class="label">Dark mode</div><div class="body">Thanks, talk soon.</div><div class="slot"></div></div>
+</main>
+<div id="toast"></div>
+
+<template id="sig"><table class="sig" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;font-family:'Segoe UI',Helvetica,Arial,sans-serif;color:#080808;">
+<tr>
+<td valign="top" width="80" style="width:80px;padding:0 12px 0 0;"><a href="https://github.com/xaviermsd" style="text-decoration:none;"><img src="{{BASE}}avatar.png" width="80" height="80" alt="Harsh Prajapati" style="display:block;width:80px;height:80px;border:0;"></a></td>
+<td width="4" bgcolor="#d6ff36" style="width:4px;min-width:4px;background-color:#d6ff36;font-size:1px;line-height:1px;">&nbsp;</td>
+<td valign="top" style="padding:0 0 0 12px;">
+<table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;">
+<tr><td style="font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:21px;line-height:26px;font-weight:800;letter-spacing:-0.4px;color:#080808;">Harsh Prajapati</td></tr>
+<tr><td style="padding:2px 0 8px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;font-weight:600;color:#4f5866;">Freelance full-stack developer<br>Ahmedabad, India</td></tr>
+<tr><td style="padding:0 0 10px;"><table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:separate;"><tr><td class="tag" bgcolor="#d6ff36" style="background-color:#d6ff36;border:2px solid #080808;border-radius:999px;padding:3px 11px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:16px;font-weight:800;color:#080808;white-space:nowrap;">CRMs · Web apps · WordPress</td></tr></table></td></tr>
+<tr><td style="padding:0 0 4px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;font-weight:700;color:#080808;"><a href="mailto:harshprajapati34@gmail.com" style="color:#080808;text-decoration:none;border-bottom:3px solid #d6ff36;padding-bottom:1px;">harshprajapati34@gmail.com&nbsp;<span style="color:#4f5866;font-weight:800;">&#8599;</span></a></td></tr>
+<tr><td style="padding:0 0 12px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;font-weight:700;color:#080808;"><a href="https://github.com/xaviermsd" style="color:#080808;text-decoration:none;border-bottom:3px solid #d6ff36;padding-bottom:1px;">github.com/xaviermsd&nbsp;<span style="color:#4f5866;font-weight:800;">&#8599;</span></a></td></tr>
+<tr><td><table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;"><tr>
+<td style="padding:0 6px 0 0;"><a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="{{BASE}}linkedin.png" width="34" height="34" alt="LinkedIn" style="display:block;width:34px;height:34px;border:0;"></a></td>
+<td style="padding:0 6px 0 0;"><a href="https://github.com/xaviermsd"><img src="{{BASE}}github.png" width="34" height="34" alt="GitHub" style="display:block;width:34px;height:34px;border:0;"></a></td>
+<td style="padding:0 6px 0 0;"><a href="https://www.youtube.com/@harshprajapatiofficial"><img src="{{BASE}}youtube.png" width="34" height="34" alt="YouTube" style="display:block;width:34px;height:34px;border:0;"></a></td>
+<td style="padding:0 6px 0 0;"><a href="https://www.instagram.com/harshprajapatiofficial/"><img src="{{BASE}}instagram.png" width="34" height="34" alt="Instagram" style="display:block;width:34px;height:34px;border:0;"></a></td>
+<td style="padding:0;"><a href="https://profiles.wordpress.org/xaviermsd/"><img src="{{BASE}}wordpress.png" width="34" height="34" alt="WordPress.org" style="display:block;width:34px;height:34px;border:0;"></a></td>
+</tr></table></td></tr>
+</table>
+</td>
+</tr>
+<tr><td colspan="3" style="padding:16px 0 0;"><a href="https://github.com/xaviermsd"><img src="{{BASE}}cta.png" width="306" height="42" alt="Open for projects · See my work" style="display:block;width:306px;height:42px;border:0;"></a></td></tr>
+</table></template>
+
+<script>
+	// Copied signatures point at the images on GitHub. The preview uses the local files so it works before a push.
+	const LIVE = 'https://raw.githubusercontent.com/xaviermsd/xaviermsd/main/assets/signature/';
+	const LOCAL = '../signature/';
+	const tpl = document.getElementById('sig').innerHTML.trim();
+	const build = base => tpl.split('{{BASE}}').join(base);
+	document.querySelectorAll('.slot').forEach(s => s.innerHTML = build(LOCAL));
+
+	const toast = msg => { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1800); };
+	const html = build(LIVE).replace(/ class="[^"]*"/g, '');
+	document.getElementById('copy').onclick = async () => {
+		try {
+			await navigator.clipboard.write([new ClipboardItem({
+				'text/html': new Blob([html], { type: 'text/html' }),
+				'text/plain': new Blob(['Harsh Prajapati\nFreelance full-stack developer · Ahmedabad, India\nharshprajapati34@gmail.com · github.com/xaviermsd'], { type: 'text/plain' }),
+			})]);
+			toast('Signature copied. Paste it into your mail app.');
+		} catch (e) { toast('Copy failed. Open this file in Chrome or Edge.'); }
+	};
+	document.getElementById('copy-html').onclick = async () => {
+		try { await navigator.clipboard.writeText(html); toast('HTML code copied.'); }
+		catch (e) { toast('Copy failed. Open this file in Chrome or Edge.'); }
+	};
+</script>
+</body></html>
