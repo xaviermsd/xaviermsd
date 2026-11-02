@@ -3,11 +3,12 @@
     python assets/src/render_signature_anim.py
 
 cta.gif:      the dot pulses and the arrow nudges right, 2.4 s loop.
-<icon>.gif:   the social chips lift one after another in a wave, then rest, 4 s loop.
+<icon>.gif:   the logos hop inside their chips one after another in a wave, then rest, 4 s loop.
 
 Frame one is the resting state, because Outlook classic on Windows shows only the first frame. GIF has no soft
 transparency, so edge pixels are blended into ink (every outer edge here is an ink border or ink shadow) and the rest is
-cut out. All frames share one palette and identical frames are merged.
+cut out. Only parts inside opaque areas move, so the see-through area is the same in every frame. All frames share
+one palette and identical frames are merged.
 """
 import io, math, pathlib
 from PIL import Image
@@ -73,17 +74,17 @@ with sync_playwright() as p:
         frames.append((shoot(cta), 100))
     save_gif(OUT / 'cta.gif', frames, disposal=1)  # dot and arrow stay inside the pill
 
-    # chips: 37 x 37 canvas, chip rests 3px in from the top left and lifts to 0 while its shadow stays put
-    page.add_style_tag(content='.chip { width: 37px; height: 37px; } .chip i { left: 6px; top: 6px; } .chip b { left: 3px; top: 3px; }')
+    # chips: the circle and its shadow stay still and only the logo hops inside the white circle, so every frame has the
+    # same see-through area. The Gmail app does not clear old frames, and anything moving over transparency smudges there.
     for n, name in enumerate(ICONS):
         chip = page.locator(f'[data-out="signature/{name}.png"]')
         start, frames = 200 + n * 140, []
         for t in range(0, 1600, 40):
             u = (t - start) / 400
             lift = math.sin(math.pi * u) if 0 <= u <= 1 else 0
-            page.evaluate(f'''() => {{ const b = document.querySelector('[data-out="signature/{name}.png"] b');
-                b.style.left = b.style.top = '{3 - 3 * lift:.2f}px'; }}''')
+            page.evaluate(f'''() => {{ document.querySelector('[data-out="signature/{name}.png"] svg').style.transform =
+                'translateY({-3 * lift:.2f}px)'; }}''')
             frames.append((shoot(chip), 40))
         frames[-1] = (frames[-1][0], 40 + 2400)
-        save_gif(OUT / f'{name}.gif', frames)
+        save_gif(OUT / f'{name}.gif', frames, disposal=1)
     browser.close()

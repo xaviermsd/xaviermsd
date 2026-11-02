@@ -22,7 +22,11 @@
 
 	/* lime pieces are images, not cell colours: the Gmail app's dark mode turns lime backgrounds and borders olive */
 	.lime { width: 6px; height: 6px; background: var(--lime); }
-	.tag { display: inline-block; height: 26px; padding: 0 11px; border: 2px solid var(--ink); border-radius: 999px; background: var(--lime); font: 800 12px/22px "Inter"; white-space: nowrap; }
+	.tag { display: inline-block; height: 26px; padding: 0 11px; border: 2px solid var(--ink); border-radius: 999px; background: #fff; font: 800 12px/22px "Inter"; white-space: nowrap; }
+
+	/* name in the brand font on a lime highlight, like the hero headline; the plate keeps it readable in dark mode */
+	.namew { display: inline-block; padding: 0 3px 3px 0; }
+	.name { display: inline-block; padding: 1px 10px 3px; border: 2.5px solid var(--ink); border-radius: 10px; background: var(--lime); box-shadow: 3px 3px 0 var(--ink); font: 800 20px/26px "Plus Jakarta Sans"; letter-spacing: -.5px; white-space: nowrap; }
 
 	/* call to action pill */
 	.ctaw { display: inline-block; padding: 0 4px 4px 0; }
@@ -43,6 +47,8 @@
 </div>
 
 <div class="lime" data-out="signature/lime.png"></div>
+
+<span class="namew" data-out="signature/name.png"><span class="name">Harsh Prajapati</span></span>
 
 <span class="tag" data-out="signature/tag.png">CRMs · Web apps · WordPress</span>
 
