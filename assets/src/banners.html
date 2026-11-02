@@ -1,130 +1,168 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>Project banners</title>
-<!-- Source for the project banners in assets/. Each .bn element is saved to the file named in data-out by render_banners.py.
-     Same layout for every project, each in its own product brand, so every case study stands out. Demo data only. -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<!-- Source for the featured project banners in assets/. Each .bw element is saved to the file named in data-out by
+     render_banners.py. One system for every project: the profile's ink frame (thick border, round corners, hard offset
+     shadow), each in its product's own colours, a bold headline and pills, the product UI large with depth and a glow,
+     and two floating highlight chips. Demo data only. -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: #333; padding: 20px; font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; }
+html, body { background: transparent; }
+body { padding: 20px; font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; }
 em { font-style: normal; }
-.bn { position: relative; width: 1600px; height: 640px; overflow: hidden; margin-bottom: 30px; color: var(--text); background: var(--bg); }
-.bn .grid { position: absolute; inset: 0; background-image: linear-gradient(var(--gridc) 1px, transparent 1px), linear-gradient(90deg, var(--gridc) 1px, transparent 1px);
-	background-size: 40px 40px; -webkit-mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.5) 45%, transparent 75%); }
-.left { position: absolute; left: 76px; top: 64px; width: 740px; }
-.brand { display: flex; align-items: center; gap: 14px; }
-.brand img { height: 52px; display: block; }
-.brand b { font: 800 30px "Plus Jakarta Sans"; letter-spacing: -.5px; }
-.brand span { display: block; font: 500 15px Inter; color: var(--muted); margin-top: 1px; }
-.eyebrow { margin-top: 38px; display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 12px; border-radius: 99px;
-	border: 1px solid var(--line); background: var(--chipbg); font: 700 14px Inter; letter-spacing: 1.5px; color: var(--eye); text-transform: uppercase; }
-.eyebrow i { width: 7px; height: 7px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 10px var(--acc); }
-h1 { margin-top: 20px; font: 800 70px/1.03 "Plus Jakarta Sans"; letter-spacing: -2.4px; }
-h1 em { background: var(--grad); -webkit-background-clip: text; color: transparent; }
-.sub { margin-top: 20px; font: 500 21px/1.5 Inter; color: var(--sub); width: 660px; }
-.sub b { color: var(--text); font-weight: 600; }
-.chips { margin-top: 22px; display: flex; gap: 10px; flex-wrap: nowrap; }
-.chips span { padding: 7px 14px; border-radius: 10px; font: 600 15px Inter; color: var(--chip); background: var(--chipbg); border: 1px solid var(--line); white-space: nowrap; }
-.foot { position: absolute; left: 76px; bottom: 48px; display: flex; align-items: center; gap: 22px; }
-.cta { display: inline-flex; align-items: center; gap: 10px; padding: 15px 26px; border-radius: 14px; font: 700 19px "Plus Jakarta Sans"; color: var(--ctat); background: var(--ctabg); box-shadow: 0 10px 30px var(--ctash); }
-.cta svg { width: 18px; height: 18px; }
-.me { display: flex; align-items: center; gap: 12px; }
-.me img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--acc); }
-.me b { display: block; font: 700 18px "Plus Jakarta Sans"; }
-.me span { font: 500 15px Inter; color: var(--muted); }
-.stage { position: absolute; perspective: 1800px; }
-.win { border-radius: 16px; overflow: hidden; background: #fff; transform: rotateY(-13deg) rotateX(4deg); transform-origin: left center;
-	box-shadow: 0 40px 80px rgba(0,0,0,.55), 0 0 0 1px var(--line), 0 0 90px var(--glowc); }
-.bar { height: 34px; background: var(--barbg); display: flex; align-items: center; gap: 7px; padding: 0 14px; }
-.bar i { width: 11px; height: 11px; border-radius: 50%; }
-.bar i:nth-child(1) { background: #ff5f57; } .bar i:nth-child(2) { background: #febc2e; } .bar i:nth-child(3) { background: #28c840; }
-.win img { display: block; width: 100%; object-fit: cover; object-position: left top; }
-.fade { position: absolute; right: 0; top: 0; bottom: 0; width: 200px; background: linear-gradient(90deg, transparent, var(--edge) 85%); }
-.card { position: absolute; padding: 14px 18px; border-radius: 14px; background: var(--cardbg); border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(0,0,0,.45); }
-.card small { display: block; font: 700 12px Inter; letter-spacing: 1.3px; color: var(--muted); text-transform: uppercase; }
-.card b { display: block; margin-top: 4px; font: 800 24px "Plus Jakarta Sans"; letter-spacing: -.4px; color: var(--text); }
-.card .row { display: flex; align-items: center; gap: 10px; }
-.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 10px var(--acc); }
+.bw { display: block; width: 1614px; padding: 0 14px 14px 0; margin-bottom: 30px; }
+.bn { position: relative; width: 1600px; height: 640px; overflow: hidden; color: var(--text); background: var(--bg);
+	border: 5px solid #080808; border-radius: 34px; box-shadow: 12px 12px 0 #080808; }
+.grid { position: absolute; inset: 0; background-image: linear-gradient(var(--gridc) 1px, transparent 1px), linear-gradient(90deg, var(--gridc) 1px, transparent 1px);
+	background-size: 44px 44px; -webkit-mask-image: radial-gradient(900px 600px at 30% 40%, #000, transparent 80%); }
+.glow { position: absolute; left: 820px; top: 40px; width: 900px; height: 620px; border-radius: 50%; background: radial-gradient(closest-side, var(--glow), transparent); filter: blur(10px); }
 
-/* UCS CRM: UCS blue on deep navy */
-.ucs { --bg: radial-gradient(700px 520px at 230px 120px, rgba(0,102,255,.22), transparent 70%), radial-gradient(800px 600px at 1330px 560px, rgba(61,139,255,.18), transparent 70%), linear-gradient(115deg, #050c1d 0%, #0a1430 55%, #0d1a3d 100%);
-	--text: #f3f7ff; --muted: #8fa2c6; --sub: #c4d1ea; --eye: #b8d2ff; --acc: #3d8bff; --line: rgba(120,165,255,.24); --chipbg: rgba(61,139,255,.10); --chip: #dbe7ff;
-	--grad: linear-gradient(100deg, #8fc0ff 0%, #3d8bff 50%, #0066ff 100%); --gridc: rgba(150,190,255,.05); --ctabg: linear-gradient(135deg, #3d8bff, #0066ff 60%, #0052d6); --ctat: #fff; --ctash: rgba(0,102,255,.35);
-	--barbg: #e9eef7; --edge: #0d1a3d; --cardbg: rgba(10,20,48,.92); --glowc: rgba(0,102,255,.18); }
-.ucs .brand img { height: 56px; border-radius: 12px; background: #fff; padding: 6px 10px; }
-/* CapMitra Edit: Electric Lime on ink */
-.cap { --bg: radial-gradient(700px 520px at 230px 120px, rgba(214,255,54,.15), transparent 70%), radial-gradient(800px 600px at 1330px 560px, rgba(214,255,54,.10), transparent 70%), linear-gradient(115deg, #080808 0%, #0e0f0b 55%, #13150c 100%);
-	--text: #f7f8f4; --muted: #9aa08f; --sub: #cfd3c6; --eye: #d6ff36; --acc: #d6ff36; --line: rgba(214,255,54,.22); --chipbg: rgba(214,255,54,.07); --chip: #e9eedc;
-	--grad: linear-gradient(100deg, #f1ff9c 0%, #d6ff36 55%, #b4e010 100%); --gridc: rgba(214,255,54,.045); --ctabg: #d6ff36; --ctat: #080808; --ctash: rgba(214,255,54,.25);
-	--barbg: #ecefe4; --edge: #13150c; --cardbg: rgba(16,17,12,.92); --glowc: rgba(214,255,54,.12); }
-/* EvoFox Ronin: lime fox on a dark RGB keyboard stage */
-.ronin { --bg: radial-gradient(520px 380px at 1040px 380px, rgba(0,229,255,.20), transparent 70%), radial-gradient(520px 380px at 1420px 300px, rgba(190,80,255,.20), transparent 70%), radial-gradient(600px 460px at 230px 120px, rgba(214,255,54,.13), transparent 70%), linear-gradient(115deg, #070708 0%, #0b0b10 55%, #0f0d16 100%);
-	--text: #f7f8f4; --muted: #9a9fb0; --sub: #cdd0da; --eye: #d6ff36; --acc: #d6ff36; --line: rgba(214,255,54,.22); --chipbg: rgba(255,255,255,.05); --chip: #e6e8ee;
-	--grad: linear-gradient(100deg, #36f1ff 0%, #d6ff36 50%, #c46bff 100%); --gridc: rgba(255,255,255,.04); --ctabg: #d6ff36; --ctat: #080808; --ctash: rgba(214,255,54,.25);
-	--edge: #0f0d16; --cardbg: rgba(14,13,20,.92); }
-.ronin .brand img { border-radius: 12px; }
-.kb { position: absolute; left: 850px; top: 150px; width: 700px; transform: perspective(1600px) rotateY(-12deg) rotateX(8deg); transform-origin: left center; filter: brightness(1.25) saturate(1.4) drop-shadow(0 40px 60px rgba(0,0,0,.6)) drop-shadow(0 0 50px rgba(0,229,255,.3)); }
-.phone { position: absolute; border-radius: 28px; overflow: hidden; border: 6px solid #1b1d16; box-shadow: 0 30px 60px rgba(0,0,0,.6), 0 0 0 1px rgba(214,255,54,.25); }
-.phone img { display: block; width: 100%; }
+.left { position: absolute; left: 70px; top: 58px; width: 700px; z-index: 3; }
+.brand { display: flex; align-items: center; gap: 16px; }
+.brand .lg { width: 62px; height: 62px; border-radius: 16px; display: block; object-fit: contain; box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+.brand .plate { height: 62px; padding: 7px 12px; border-radius: 16px; background: #fff; display: flex; align-items: center; }
+.brand .plate img { height: 46px; display: block; }
+.brand b { display: block; font: 800 32px "Plus Jakarta Sans"; letter-spacing: -.6px; line-height: 1.1; }
+.brand span { display: block; font: 600 16px Inter; color: var(--muted); margin-top: 3px; }
+.eyebrow { margin-top: 34px; display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 13px; border-radius: 99px;
+	border: 1.5px solid var(--line); background: var(--soft); font: 800 14px Inter; letter-spacing: 1.6px; color: var(--eye); text-transform: uppercase; }
+.eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 12px var(--acc); }
+h1 { margin-top: 18px; font: 800 76px/1.0 "Plus Jakarta Sans"; letter-spacing: -2.8px; }
+h1 em { background: var(--grad); -webkit-background-clip: text; color: transparent; padding-bottom: 6px; }
+.sub { margin-top: 20px; font: 500 21px/1.48 Inter; color: var(--sub); width: 640px; }
+.sub b { color: var(--text); font-weight: 700; }
+.pills { position: absolute; left: 70px; bottom: 54px; display: flex; gap: 12px; z-index: 3; }
+.pills span { padding: 10px 20px; border-radius: 99px; font: 800 18px "Plus Jakarta Sans"; color: var(--text); background: var(--soft); border: 2px solid var(--line); white-space: nowrap; }
+.pills span:first-child { background: var(--acc); color: var(--onacc); border-color: var(--acc); box-shadow: 0 8px 24px var(--glow); }
+
+.stage { position: absolute; left: 800px; top: 74px; perspective: 1700px; z-index: 1; }
+.win { width: 940px; border-radius: 18px; overflow: hidden; background: #fff; transform: rotateY(-14deg) rotateX(5deg) rotateZ(1deg); transform-origin: left center;
+	box-shadow: 0 50px 90px rgba(0,0,0,.6), 0 0 0 1.5px var(--line), 0 0 120px var(--glow); }
+.bar { height: 36px; background: var(--barbg, #eceff3); display: flex; align-items: center; gap: 8px; padding: 0 16px; }
+.bar i { width: 12px; height: 12px; border-radius: 50%; }
+.bar i:nth-child(1) { background: #ff5f57; } .bar i:nth-child(2) { background: #febc2e; } .bar i:nth-child(3) { background: #28c840; }
+.win img { display: block; width: 100%; height: 560px; object-fit: cover; object-position: left top; }
+.kb { position: absolute; left: 790px; top: 130px; width: 760px; z-index: 1; transform: perspective(1600px) rotateY(-12deg) rotateX(8deg); transform-origin: left center;
+	filter: brightness(1.25) saturate(1.4) drop-shadow(0 40px 60px rgba(0,0,0,.6)) drop-shadow(0 0 60px rgba(0,229,255,.35)); }
+
+.chip { position: absolute; z-index: 4; padding: 14px 20px 15px; border-radius: 18px; background: var(--card); border: 1.5px solid var(--line);
+	box-shadow: 0 22px 44px rgba(0,0,0,.5), 0 0 0 1px rgba(0,0,0,.2); backdrop-filter: blur(8px); }
+.chip small { display: block; font: 800 12.5px Inter; letter-spacing: 1.4px; color: var(--muted); text-transform: uppercase; }
+.chip b { display: flex; align-items: center; gap: 10px; margin-top: 5px; font: 800 26px "Plus Jakarta Sans"; letter-spacing: -.5px; color: var(--text); white-space: nowrap; }
+.chip b i { width: 10px; height: 10px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 12px var(--acc); flex: none; }
+.c1 { left: 760px; top: 404px; }
+.c2 { right: 54px; top: 470px; }
+
+/* brands */
+.projectly { --bg: radial-gradient(760px 560px at 12% 8%, rgba(199,166,90,.22), transparent 70%), linear-gradient(115deg, #15120e 0%, #1c1711 55%, #241c12 100%);
+	--text: #fbf6ea; --muted: #a89c86; --sub: #d8ccb6; --eye: #f4deb0; --acc: #c7a65a; --onacc: #1a140c; --line: rgba(244,222,176,.24); --soft: rgba(199,166,90,.10);
+	--grad: linear-gradient(100deg, #f0d293 0%, #c7a65a 50%, #a8853f 100%); --gridc: rgba(244,222,176,.05); --glow: rgba(199,166,90,.38); --card: rgba(28,23,17,.9); --barbg: #ece6d8; }
+.ucs { --bg: radial-gradient(760px 560px at 12% 8%, rgba(0,102,255,.26), transparent 70%), linear-gradient(115deg, #050c1d 0%, #0a1430 55%, #0e1c42 100%);
+	--text: #f3f7ff; --muted: #8fa2c6; --sub: #c4d1ea; --eye: #b8d2ff; --acc: #2f80ff; --onacc: #fff; --line: rgba(120,165,255,.28); --soft: rgba(61,139,255,.12);
+	--grad: linear-gradient(100deg, #9cc8ff 0%, #3d8bff 50%, #1a6dff 100%); --gridc: rgba(150,190,255,.055); --glow: rgba(0,102,255,.45); --card: rgba(10,20,48,.9); --barbg: #e9eef7; }
+.cap { --bg: radial-gradient(760px 560px at 12% 8%, rgba(214,255,54,.17), transparent 70%), linear-gradient(115deg, #080808 0%, #0e0f0b 55%, #14160c 100%);
+	--text: #f7f8f4; --muted: #9aa08f; --sub: #cfd3c6; --eye: #d6ff36; --acc: #d6ff36; --onacc: #080808; --line: rgba(214,255,54,.26); --soft: rgba(214,255,54,.08);
+	--grad: linear-gradient(100deg, #f4ffb0 0%, #d6ff36 55%, #b4e010 100%); --gridc: rgba(214,255,54,.05); --glow: rgba(214,255,54,.30); --card: rgba(16,17,12,.9); --barbg: #ecefe4; }
+.ronin { --bg: radial-gradient(560px 420px at 66% 55%, rgba(0,229,255,.22), transparent 70%), radial-gradient(560px 420px at 92% 40%, rgba(190,80,255,.24), transparent 70%), radial-gradient(700px 520px at 12% 8%, rgba(214,255,54,.14), transparent 70%), linear-gradient(115deg, #070708 0%, #0b0b10 55%, #100d18 100%);
+	--text: #f7f8f4; --muted: #9a9fb0; --sub: #cdd0da; --eye: #d6ff36; --acc: #d6ff36; --onacc: #080808; --line: rgba(214,255,54,.24); --soft: rgba(255,255,255,.06);
+	--grad: linear-gradient(100deg, #36f1ff 0%, #d6ff36 50%, #c46bff 100%); --gridc: rgba(255,255,255,.045); --glow: rgba(0,229,255,.25); --card: rgba(14,13,20,.9); }
+.fieldpilot { --bg: radial-gradient(760px 560px at 12% 8%, rgba(49,232,228,.16), transparent 70%), radial-gradient(700px 500px at 100% 100%, rgba(199,255,70,.10), transparent 70%), linear-gradient(115deg, #04090f 0%, #08172a 60%, #0a1d33 100%);
+	--text: #f2f8fb; --muted: #8aa3b5; --sub: #c3d4df; --eye: #31e8e4; --acc: #c7ff46; --onacc: #08172a; --line: rgba(49,232,228,.26); --soft: rgba(49,232,228,.08);
+	--grad: linear-gradient(100deg, #31e8e4 0%, #7ff5c4 50%, #c7ff46 100%); --gridc: rgba(49,232,228,.05); --glow: rgba(49,232,228,.30); --card: rgba(6,18,32,.9); --barbg: #e8edf1; }
+.menunest { --bg: radial-gradient(760px 560px at 12% 8%, rgba(199,255,70,.15), transparent 70%), radial-gradient(700px 500px at 100% 100%, rgba(49,232,228,.14), transparent 70%), linear-gradient(115deg, #050a10 0%, #072022 60%, #08292a 100%);
+	--text: #f2fbf8; --muted: #8fb0ab; --sub: #c6dcd8; --eye: #c7ff46; --acc: #31e8e4; --onacc: #04191a; --line: rgba(199,255,70,.24); --soft: rgba(199,255,70,.08);
+	--grad: linear-gradient(100deg, #c7ff46 0%, #7ff5a0 45%, #31e8e4 100%); --gridc: rgba(199,255,70,.05); --glow: rgba(49,232,228,.30); --card: rgba(4,24,26,.9); --barbg: #e8edf1; }
 </style>
 </head><body>
 
-<!-- UCS CRM: operations CRM for UCS Projects (client project, demo data, amounts blurred in the capture) -->
-<section class="bn ucs" data-out="banner-ucs-crm.jpg">
-	<div class="grid"></div>
-	<div class="stage" style="left:850px;top:70px"><div class="win" style="width:980px"><div class="bar"><i></i><i></i><i></i></div><img src="img/b-ucs-dash.jpg" style="height:600px"></div></div>
-	<div class="fade"></div>
-	<div class="card" style="left:812px;top:420px"><small>Site stages</small><div class="row"><span class="dot"></span><b>7 of 12 done</b></div></div>
-	<div class="card" style="left:1290px;top:500px"><small>Quality checks</small><b>6 passed</b></div>
+<!-- Projectly: private client project for a creative studio, portfolio name, demo data only -->
+<div class="bw" data-out="banner-projectly.png"><section class="bn projectly">
+	<div class="grid"></div><div class="glow"></div>
+	<div class="stage"><div class="win"><div class="bar"><i></i><i></i><i></i></div><img src="img/b-projectly-dash.jpg"></div></div>
+	<div class="chip c1"><small>Live timer</small><b><i></i>01:24:36</b></div>
+	<div class="chip c2"><small>Client report</small><b>PDF ready to send</b></div>
 	<div class="left">
-		<div class="brand"><img src="img/ucs-crm-logo.png"><div><b>UCS CRM</b><span>Built for UCS Projects</span></div></div>
+		<div class="brand"><img class="lg" src="img/projectly-logo.png"><div><b>Projectly</b><span>Private client project · demo data</span></div></div>
+		<div class="eyebrow"><i></i>Case study · Time and project portal</div>
+		<h1>Every hour,<br><em>accounted for.</em></h1>
+		<p class="sub">Built for a <b>creative studio</b>. Every billable hour tracked from the task to the client report.</p>
+	</div>
+	<div class="pills"><span>Live timers</span><span>Client reports</span><span>Role-based access</span><span>PostgreSQL</span></div>
+</section></div>
+
+<!-- UCS CRM: client project for UCS Projects, client Mehul Sharma, demo data with amounts blurred -->
+<div class="bw" data-out="banner-ucs-crm.png"><section class="bn ucs">
+	<div class="grid"></div><div class="glow"></div>
+	<div class="stage"><div class="win"><div class="bar"><i></i><i></i><i></i></div><img src="img/b-ucs-dash.jpg"></div></div>
+	<div class="chip c1"><small>Site stages</small><b><i></i>7 of 12 done</b></div>
+	<div class="chip c2"><small>Quality checks</small><b>6 passed</b></div>
+	<div class="left">
+		<div class="brand"><span class="plate"><img src="img/ucs-crm-logo.png"></span><div><b>UCS CRM</b><span>For UCS Projects · Client: Mehul Sharma</span></div></div>
 		<div class="eyebrow"><i></i>Case study · Construction CRM</div>
 		<h1>Run every site<br>from <em>one screen.</em></h1>
-		<p class="sub">An operations CRM I built for <b>UCS Projects</b>, a construction and interiors firm. From the first quotation to the final handover.</p>
-		<div class="chips"><span>Quotes to payments</span><span>Site diaries</span><span>Quality checks</span><span>Role-based access</span><span>Next.js</span></div>
+		<p class="sub">Quotations, site work, quality checks and payments in <b>one system</b>, from the first quote to the handover.</p>
 	</div>
-	<div class="foot">
-		<div class="cta">DM me to start your project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-		<div class="me"><img src="img/avatar.jpg"><div><b>Harsh Prajapati</b><span>Full Stack Developer</span></div></div>
-	</div>
-</section>
+	<div class="pills"><span>Quotes to payments</span><span>Site and QC</span><span>Dashboards</span><span>Next.js</span></div>
+</section></div>
 
 <!-- CapMitra Edit -->
-<section class="bn cap" data-out="banner-capmitra.jpg">
-	<div class="grid"></div>
-	<div class="stage" style="left:850px;top:96px"><div class="win" style="width:1000px"><div class="bar"><i></i><i></i><i></i></div><img src="img/b-cap-editor.jpg" style="height:406px"></div></div>
-	<div class="fade"></div>
-	<div class="phone" style="left:1290px;top:250px;width:200px;transform:rotate(3deg)"><img src="img/b-cap-phone.jpg"></div>
-	<div class="card" style="left:812px;top:470px"><small>Captions</small><div class="row"><span class="dot"></span><b>34 languages</b></div></div>
+<div class="bw" data-out="banner-capmitra.png"><section class="bn cap">
+	<div class="grid"></div><div class="glow"></div>
+	<div class="stage" style="top:110px"><div class="win" style="width:1000px"><div class="bar"><i></i><i></i><i></i></div><img src="img/b-cap-editor.jpg" style="height:406px"></div></div>
+	<div class="chip c1" style="top:430px"><small>Captions</small><b><i></i>34 languages</b></div>
+	<div class="chip c2" style="top:494px"><small>Export</small><b>Up to 4K</b></div>
 	<div class="left">
-		<div class="brand"><img src="img/capmitra-icon-512.png" style="border-radius:12px"><div><b>CapMitra Edit</b><span>Video, audio and captions</span></div></div>
-		<div class="eyebrow"><i></i>Web app · Invite-only beta</div>
+		<div class="brand"><img class="lg" src="img/capmitra-icon-512.png"><div><b>CapMitra Edit</b><span>Web app · invite-only beta</span></div></div>
+		<div class="eyebrow"><i></i>Video, audio and captions</div>
 		<h1>One Reel shouldn't<br>need <em>three apps.</em></h1>
 		<p class="sub">Edit video, clean up audio and add <b>word-by-word captions</b> in one browser editor. Your video never leaves your device.</p>
-		<div class="chips"><span>34 languages</span><span>Noise reduction</span><span>Caption styles</span><span>Export up to 4K</span><span>Open source</span></div>
 	</div>
-	<div class="foot">
-		<div class="cta">DM me to start your project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-		<div class="me"><img src="img/avatar.jpg"><div><b>Harsh Prajapati</b><span>Full Stack Developer</span></div></div>
-	</div>
-</section>
+	<div class="pills"><span>34 languages</span><span>Noise reduction</span><span>4K export</span><span>Open source</span></div>
+</section></div>
 
 <!-- EvoFox Ronin Web Configurator (unofficial fan project) -->
-<section class="bn ronin" data-out="banner-ronin.jpg">
+<div class="bw" data-out="banner-ronin.png"><section class="bn ronin">
 	<div class="grid"></div>
 	<img class="kb" src="img/b-ronin-kb.png">
-	<div class="card" style="left:860px;top:440px"><small>RGB effects</small><div class="row"><span class="dot"></span><b>21, with live preview</b></div></div>
-	<div class="card" style="left:1230px;top:500px"><small>Install</small><b>Nothing. Just a browser.</b></div>
+	<div class="chip c1" style="top:440px"><small>RGB effects</small><b><i></i>21, live preview</b></div>
+	<div class="chip c2" style="top:494px"><small>Install</small><b>Nothing. Just a browser.</b></div>
 	<div class="left">
-		<div class="brand"><img src="img/app-icon.svg"><div><b>EvoFox Ronin</b><span>Web configurator · fan project</span></div></div>
+		<div class="brand"><img class="lg" src="img/app-icon.svg"><div><b>EvoFox Ronin</b><span>Web configurator · unofficial fan project</span></div></div>
 		<div class="eyebrow"><i></i>Web app · WebHID</div>
 		<h1>Your keyboard,<br><em>set up in a browser.</em></h1>
-		<p class="sub">Every RGB effect, <b>per-key colour</b>, key remapping and profiles for the EvoFox Ronin, right from a browser tab.</p>
-		<div class="chips"><span>21 RGB effects</span><span>Per-key colour</span><span>Key remap</span><span>Profiles</span><span>Phone guide</span></div>
+		<p class="sub">Every RGB effect, <b>per-key colour</b>, key remapping and profiles, right from a browser tab.</p>
 	</div>
-	<div class="foot">
-		<div class="cta">DM me to start your project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-		<div class="me"><img src="img/avatar.jpg"><div><b>Harsh Prajapati</b><span>Full Stack Developer</span></div></div>
+	<div class="pills"><span>21 RGB effects</span><span>Per-key colour</span><span>Key remap</span><span>Profiles</span></div>
+</section></div>
+
+<!-- FieldPilot for ACF -->
+<div class="bw" data-out="banner-fieldpilot.png"><section class="bn fieldpilot">
+	<div class="grid"></div><div class="glow"></div>
+	<div class="stage"><div class="win" style="width:900px"><div class="bar"><i></i><i></i><i></i></div><img src="img/fieldpilot-diff.jpg" style="height:600px"></div></div>
+	<div class="chip c1"><small>Preview</small><b><i></i>1 change, nothing else</b></div>
+	<div class="chip c2"><small>Undo</small><b>A snapshot every write</b></div>
+	<div class="left">
+		<div class="brand"><img class="lg" src="img/fieldpilot-icon.png"><div><b>FieldPilot</b><span>WordPress plugin · free on WordPress.org</span></div></div>
+		<div class="eyebrow"><i></i>JSON copilot for ACF</div>
+		<h1>ACF field groups,<br><em>built from JSON.</em></h1>
+		<p class="sub">Paste JSON, see the <b>exact diff</b> before anything is written, then apply. Every change can be rolled back.</p>
 	</div>
-</section>
+	<div class="pills"><span>Diff first</span><span>One-click undo</span><span>REST and WP-CLI</span><span>Free</span></div>
+</section></div>
+
+<!-- MenuNest: Smart Menu Manager -->
+<div class="bw" data-out="banner-menunest.png"><section class="bn menunest">
+	<div class="grid"></div><div class="glow"></div>
+	<div class="stage"><div class="win" style="width:900px"><div class="bar"><i></i><i></i><i></i></div><img src="img/menunest-ui.jpg" style="height:600px"></div></div>
+	<div class="chip c1"><small>Bulk add</small><b><i></i>7 items, one click</b></div>
+	<div class="chip c2"><small>Backups</small><b>Automatic, one-click restore</b></div>
+	<div class="left">
+		<div class="brand"><img class="lg" src="img/menunest-icon.png"><div><b>MenuNest</b><span>WordPress plugin · free on WordPress.org</span></div></div>
+		<div class="eyebrow"><i></i>Smart menu manager</div>
+		<h1>Build menus faster.<br><em>Never lose one.</em></h1>
+		<p class="sub">Add items under any parent, <b>paste a whole list</b> at once, and back up every menu before it changes.</p>
+	</div>
+	<div class="pills"><span>Bulk add</span><span>Search</span><span>Auto backups</span><span>Free</span></div>
+</section></div>
 
 </body></html>

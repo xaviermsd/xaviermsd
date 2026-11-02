@@ -31,9 +31,7 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ### Projectly: time and project portal for a creative studio
 
-<p align="center"><img src="assets/projectly-logo.gif" width="420" alt="Projectly logo: a gold clock whose hands sweep into a check mark. Every hour accounted for."></p>
-
-<img src="assets/projectly-banner.jpg" width="100%" alt="Projectly case study banner: Every hour, accounted for. A time and project portal built by Harsh Prajapati for a creative studio, with the dashboard, a live timer and a client report ready to send, using demo data.">
+<img src="assets/banner-projectly.png" width="100%" alt="Projectly case study banner: Every hour, accounted for. A time and project portal built by Harsh Prajapati for a creative studio, with the dashboard, a live timer and a client report ready to send, using demo data.">
 
 **Your team sells time. When hours live in notebooks and chat threads, some of them never reach an invoice.**
 
@@ -59,7 +57,7 @@ Screens show demo data. The code and live system are private.
 
 ### UCS CRM: operations CRM for UCS Projects
 
-<img src="assets/banner-ucs-crm.jpg" width="100%" alt="UCS CRM case study banner: Run every site from one screen. An operations CRM built by Harsh Prajapati for UCS Projects, a construction and interiors firm, with the dashboard in demo data.">
+<img src="assets/banner-ucs-crm.png" width="100%" alt="UCS CRM case study banner: Run every site from one screen. An operations CRM built by Harsh Prajapati for UCS Projects, a construction and interiors firm, with the dashboard in demo data.">
 
 **Case study · client project for [UCS Projects](https://ucsprojects.in/) ([@ucsprojects](https://www.instagram.com/ucsprojects)), a construction and interiors firm. Client: Mehul Sharma.** One system that follows every project from the first quotation to the final handover, so the office and the site team work from the same data.
 
@@ -83,7 +81,7 @@ Screens show demo data. The code and live system are private.
 
 ### CapMitra Edit
 
-<a href="https://capmitra-app.vercel.app"><img src="assets/banner-capmitra.jpg" width="100%" alt="CapMitra Edit banner: One Reel shouldn't need three apps. A browser editor for video, audio and word-by-word captions in 34 languages."></a>
+<a href="https://capmitra-app.vercel.app"><img src="assets/banner-capmitra.png" width="100%" alt="CapMitra Edit banner: One Reel shouldn't need three apps. A browser editor for video, audio and word-by-word captions in 34 languages."></a>
 
 Video, audio and captions in one browser editor. A multi-track timeline, noise reduction and music, word-by-word captions in 34 languages, and MP4 export up to 4K. Your video never leaves your device. Currently in invite-only beta.
 
@@ -93,7 +91,7 @@ Video, audio and captions in one browser editor. A multi-track timeline, noise r
 
 ### EvoFox Ronin Web Configurator
 
-<a href="https://ronin.xaviermsd.workers.dev"><img src="assets/banner-ronin.jpg" width="100%" alt="EvoFox Ronin Web Configurator banner: Your keyboard, set up in a browser. 21 RGB effects with a live preview, per-key colour, key remap and profiles."></a>
+<a href="https://ronin.xaviermsd.workers.dev"><img src="assets/banner-ronin.png" width="100%" alt="EvoFox Ronin Web Configurator banner: Your keyboard, set up in a browser. 21 RGB effects with a live preview, per-key colour, key remap and profiles."></a>
 
 Set up the EvoFox Ronin wireless keyboard right in the browser over WebHID. All 21 RGB effects with a live preview, per-key colour, key remapping and profiles, with nothing to install.
 
@@ -105,7 +103,7 @@ An unofficial fan project, not affiliated with Amkette or EvoFox.
 
 ### FieldPilot: AI &amp; JSON Copilot for ACF
 
-<a href="https://wordpress.org/plugins/fieldpilot-for-acf/"><img src="assets/banner-fieldpilot.jpg" width="100%" alt="FieldPilot for ACF banner: build ACF field groups from JSON, preview the diff first, apply and undo."></a>
+<a href="https://wordpress.org/plugins/fieldpilot-for-acf/"><img src="assets/banner-fieldpilot.png" width="100%" alt="FieldPilot for ACF banner: build ACF field groups from JSON, preview the diff first, apply and undo."></a>
 
 Build ACF field groups from JSON. Copy a prompt with your real field names, paste the reply back, see the exact diff and apply. Every change can be rolled back. Free on WordPress.org.
 
@@ -115,7 +113,7 @@ Build ACF field groups from JSON. Copy a prompt with your real field names, past
 
 ### MenuNest: Smart Menu Manager for WordPress
 
-<a href="https://wordpress.org/plugins/menunest-smart-menu-manager/"><img src="assets/banner-menunest.jpg" width="100%" alt="MenuNest banner: build WordPress menus faster and never lose one again, with bulk add, search, auto backups, import and export."></a>
+<a href="https://wordpress.org/plugins/menunest-smart-menu-manager/"><img src="assets/banner-menunest.png" width="100%" alt="MenuNest banner: build WordPress menus faster and never lose one again, with bulk add, search, auto backups, import and export."></a>
 
 Build big WordPress menus without dragging. Add items under any parent, paste a whole list at once, and back up, restore, import and export menus with a preview first. Free on WordPress.org.
 
