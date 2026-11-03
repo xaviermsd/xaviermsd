@@ -73,7 +73,9 @@ Screens show demo data. The code and live system are private.
 
 **Stack:** Next.js · React · Node.js · TypeScript · Tailwind CSS · PostgreSQL
 
-[Watch the walkthrough](https://youtu.be/G6QfV2QkRIs)
+<a href="https://youtu.be/G6QfV2QkRIs"><img src="assets/video-ucs-crm.jpg" width="100%" alt="Play the UCS CRM walkthrough video on YouTube: Custom CRM for construction and interiors, with demo data."></a>
+
+[Watch the full walkthrough on YouTube (2:43)](https://youtu.be/G6QfV2QkRIs)
 
 Screens show demo data. The code and live system are private.
 
