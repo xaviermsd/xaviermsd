@@ -57,7 +57,7 @@ Screens show demo data. The code and live system are private.
 
 ### UCS CRM: operations CRM for UCS Projects
 
-<img src="assets/banner-ucs-crm.png" width="100%" alt="UCS CRM case study banner: Run every site from one screen. An operations CRM built by Harsh Prajapati for UCS Projects, a construction and interiors firm, with the dashboard in demo data.">
+<a href="https://youtu.be/G6QfV2QkRIs"><img src="assets/banner-ucs-crm.png" width="100%" alt="UCS CRM case study banner: Run every site from one screen. An operations CRM built by Harsh Prajapati for UCS Projects, a construction and interiors firm, with the dashboard in demo data."></a>
 
 **Case study · client project for [UCS Projects](https://ucsprojects.in/) ([@ucsprojects](https://www.instagram.com/ucsprojects)), a construction and interiors firm. Client: Mehul Sharma.** One system that follows every project from the first quotation to the final handover, so the office and the site team work from the same data.
 
@@ -71,7 +71,9 @@ Screens show demo data. The code and live system are private.
 >
 > **UCS Projects** · Client: Mehul Sharma
 
-**Stack:** Next.js · React · TypeScript · Tailwind CSS
+**Stack:** Next.js · React · Node.js · TypeScript · Tailwind CSS · PostgreSQL
+
+[Watch the walkthrough](https://youtu.be/G6QfV2QkRIs)
 
 Screens show demo data. The code and live system are private.
 
