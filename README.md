@@ -31,7 +31,7 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ### Projectly: time and project portal for a creative studio
 
-<img src="assets/banner-projectly.png" width="100%" alt="Projectly case study banner: Every hour, accounted for. A time and project portal built by Harsh Prajapati for a creative studio, with the dashboard, a live timer and a client report ready to send, using demo data.">
+<a href="https://youtu.be/Xc8GPErRKlM"><img src="assets/banner-projectly.png" width="100%" alt="Projectly case study banner: Every hour, accounted for. A time and project portal built by Harsh Prajapati for a creative studio, with the dashboard, a live timer and a client report ready to send, using demo data."></a>
 
 **Your team sells time. When hours live in notebooks and chat threads, some of them never reach an invoice.**
 
