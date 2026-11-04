@@ -49,6 +49,10 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 **Stack:** JavaScript · PostgreSQL · Row Level Security
 
+<a href="https://youtu.be/Xc8GPErRKlM"><img src="assets/video-projectly.jpg" width="100%" alt="Play the Projectly walkthrough video on YouTube: a time tracking CRM for a creative studio, with demo data."></a>
+
+[Watch the full walkthrough on YouTube (3:35)](https://youtu.be/Xc8GPErRKlM)
+
 Screens show demo data. The code and live system are private.
 
 **Run an agency or studio that bills by the hour? I'll build a portal around how your team already works, so every hour gets billed. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
