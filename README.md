@@ -89,6 +89,10 @@ Screens show demo data. The code and live system are private.
 
 Video, audio and captions in one browser editor. A multi-track timeline, noise reduction and music, word-by-word captions in 34 languages, and MP4 export up to 4K. Your video never leaves your device. Currently in invite-only beta.
 
+<a href="https://www.youtube.com/watch?v=m36a8vHzkaY"><img src="assets/video-capmitra.jpg" width="100%" alt="Play the CapMitra Edit tutorial video on YouTube: video, audio and captions in one browser editor."></a>
+
+[Watch the full tutorial on YouTube (3:39)](https://www.youtube.com/watch?v=m36a8vHzkaY)
+
 [Live app](https://capmitra-app.vercel.app) · [Code](https://github.com/xaviermsd/capmitra-app)
 
 ---
@@ -111,7 +115,11 @@ An unofficial fan project, not affiliated with Amkette or EvoFox.
 
 Build ACF field groups from JSON. Copy a prompt with your real field names, paste the reply back, see the exact diff and apply. Every change can be rolled back. Free on WordPress.org.
 
-[WordPress.org](https://wordpress.org/plugins/fieldpilot-for-acf/) · [Code](https://github.com/xaviermsd/fieldpilot-for-acf) · [Video tutorial](https://youtu.be/FjoeySz05xw)
+<a href="https://youtu.be/FjoeySz05xw"><img src="assets/video-fieldpilot.jpg" width="100%" alt="Play the FieldPilot for ACF tutorial video on YouTube: build ACF field groups from JSON, preview the diff, apply and undo."></a>
+
+[Watch the full tutorial on YouTube (3:42)](https://youtu.be/FjoeySz05xw)
+
+[WordPress.org](https://wordpress.org/plugins/fieldpilot-for-acf/) · [Code](https://github.com/xaviermsd/fieldpilot-for-acf)
 
 ---
 
@@ -121,7 +129,11 @@ Build ACF field groups from JSON. Copy a prompt with your real field names, past
 
 Build big WordPress menus without dragging. Add items under any parent, paste a whole list at once, and back up, restore, import and export menus with a preview first. Free on WordPress.org.
 
-[WordPress.org](https://wordpress.org/plugins/menunest-smart-menu-manager/) · [Code](https://github.com/xaviermsd/menunest-smart-menu-manager) · [Video tutorial](https://www.youtube.com/watch?v=SljKJXaSWe8)
+<a href="https://www.youtube.com/watch?v=SljKJXaSWe8"><img src="assets/video-menunest.jpg" width="100%" alt="Play the MenuNest tutorial video on YouTube: build WordPress menus without dragging, with bulk add, search and backups."></a>
+
+[Watch the full tutorial on YouTube (3:50)](https://www.youtube.com/watch?v=SljKJXaSWe8)
+
+[WordPress.org](https://wordpress.org/plugins/menunest-smart-menu-manager/) · [Code](https://github.com/xaviermsd/menunest-smart-menu-manager)
 
 ## Tech stack
 
