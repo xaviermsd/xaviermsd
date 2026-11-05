@@ -29,6 +29,37 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ## Featured work
 
+### Worklancio: a work and billing app for freelancers and agencies
+
+<a href="https://youtu.be/1IluZ9-uzC8"><img src="assets/banner-worklancio.png" width="100%" alt="Worklancio banner: Know what every client still owes. The Worklancio dashboard with a client portal tag 'Payment due since 49 days' and a part payment of CA$335 of CA$600 settled, using demo data."></a>
+
+**Your client shouldn't have to email you to ask what they owe.**
+
+**Case study · my own build, Worklancio (Work. Track. Get Paid.).** I built one place for clients, time, invoices and payments. Every hour starts on a task and ends on an invoice, and each client gets a private portal that shows what's due, since when, and what every payment settled.
+
+- Clients with sub-clients and brands, each project at its own rate
+- A live timer plus quick manual entries
+- Invoices numbered for you from unpaid work, ready as PDF
+- Part payments split across tasks, so every balance is exact
+- A client portal with "due since X days" tags and a payments log
+- Read-only share links with an expiry date
+
+> "As a freelancer, I used to lose track of which hours I'd billed and who still owed me. Worklancio keeps my time, invoices and payments in one place, so I always know what's paid."
+>
+> **Julie** · Canada
+
+**Stack:** Next.js · React · TypeScript · PostgreSQL · Row Level Security
+
+<a href="https://youtu.be/1IluZ9-uzC8"><img src="assets/video-worklancio.jpg" width="100%" alt="Play the Worklancio product tour on YouTube: time tracking and invoicing for freelancers, with demo data."></a>
+
+[Watch the full product tour on YouTube (3:36)](https://youtu.be/1IluZ9-uzC8)
+
+Screens show demo data.
+
+**Freelancer or agency chasing payments by email? I'll build you a portal your clients actually check, so you always know who has paid. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
+
+---
+
 ### Projectly: time and project portal for a creative studio
 
 <a href="https://youtu.be/Xc8GPErRKlM"><img src="assets/banner-projectly.png" width="100%" alt="Projectly case study banner: Every hour, accounted for. A time and project portal built by Harsh Prajapati for a creative studio, with the dashboard, a live timer and a client report ready to send, using demo data."></a>
