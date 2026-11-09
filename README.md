@@ -182,6 +182,26 @@ A free moving volume calculator for moving, removal and storage companies. Custo
 
 [Download the latest release](https://github.com/xaviermsd/moving-storage-volume-calculator/releases/latest) · [Code](https://github.com/xaviermsd/moving-storage-volume-calculator)
 
+---
+
+### SitePatch Hub: agency dashboard for WordPress
+
+<img src="assets/banner-sitepatch-hub.png" width="100%" alt="SitePatch Hub banner: Update every site. Roll back in a click. An agency dashboard for WordPress with the Sites screen in demo data, coming soon to WordPress.org.">
+
+<img src="https://img.shields.io/badge/WordPress.org-Coming%20soon-a78bfa?style=for-the-badge&logo=wordpress&logoColor=a78bfa&labelColor=080808" alt="Coming soon to WordPress.org">
+
+A free, self-hosted dashboard for agencies and freelancers who look after many WordPress sites. See every client site on one screen, run safe bulk updates with a snapshot first and automatic rollback, send premium plugins to many sites and sign in with one click, all under your own agency brand. Coming soon to WordPress.org.
+
+---
+
+### SitePatch Connect: client site connector for SitePatch Hub
+
+<img src="assets/banner-sitepatch-connect.png" width="100%" alt="SitePatch Connect banner: Connect once. Care from the Hub. The client site plugin for SitePatch Hub with its maintenance page, coming soon to WordPress.org.">
+
+<img src="https://img.shields.io/badge/WordPress.org-Coming%20soon-34d399?style=for-the-badge&logo=wordpress&logoColor=34d399&labelColor=080808" alt="Coming soon to WordPress.org">
+
+The free plugin that goes on each client site. Once an administrator approves it with a WordPress Application Password, the Hub can run safe updates with rollback, turn on maintenance or coming soon pages, sign in with one click and read the Site Health report. Coming soon to WordPress.org.
+
 ## Tech stack
 
 <p>
