@@ -174,11 +174,15 @@ Build big WordPress menus without dragging. Add items under any parent, paste a 
 
 ### Moving &amp; Storage Volume Calculator for WordPress
 
-<a href="https://github.com/xaviermsd/moving-storage-volume-calculator"><img src="assets/banner-msvcalc.png" width="100%" alt="Moving and Storage Volume Calculator banner: Know the volume. Quote the move. A room-by-room moving volume calculator in cubic feet or cubic metres with truck, container and storage unit sizes, coming soon to WordPress.org."></a>
+<a href="https://youtu.be/raBU40QdFeY"><img src="assets/banner-msvcalc.png" width="100%" alt="Moving and Storage Volume Calculator banner: Know the volume. Quote the move. A room-by-room moving volume calculator in cubic feet or cubic metres with truck, container and storage unit sizes, coming soon to WordPress.org."></a>
 
 <a href="https://github.com/xaviermsd/moving-storage-volume-calculator"><img src="https://img.shields.io/badge/WordPress.org-Coming%20soon-d6ff36?style=for-the-badge&logo=wordpress&logoColor=d6ff36&labelColor=080808" alt="Coming soon to WordPress.org"></a>
 
 A free moving volume calculator for moving, removal and storage companies. Customers list their items room by room in cubic feet or cubic metres, see the truck, container and storage unit size they need, and send a ready-to-price quote that lands in a built-in leads screen. Coming soon to WordPress.org.
+
+<a href="https://youtu.be/raBU40QdFeY"><img src="assets/video-msvcalc.jpg" width="100%" alt="Play the Moving and Storage Volume Calculator guide video on YouTube: room by room moving volume, the van that fits, quote requests and leads."></a>
+
+[Watch the full guide on YouTube (4:33)](https://youtu.be/raBU40QdFeY)
 
 [Download the latest release](https://github.com/xaviermsd/moving-storage-volume-calculator/releases/latest) · [Code](https://github.com/xaviermsd/moving-storage-volume-calculator)
 
