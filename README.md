@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit my website, worklancio.in"></a>&nbsp;
   <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/btn-whatsapp.png" height="46" alt="Chat on WhatsApp"></a>&nbsp;
   <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/btn-linkedin.png" height="46" alt="Connect on LinkedIn"></a>
 </p>
@@ -12,6 +13,8 @@
 I'm a freelance full-stack developer in Ahmedabad, India. I've been building for the web since 2018 and freelancing since 2022.
 
 I work with business owners and small teams who have outgrown spreadsheets, scattered WhatsApp threads and manual follow-ups. I turn that into one clear system the whole team can use. You talk directly to the person writing the code, from the first call to launch and after.
+
+See my services, pricing and full case studies at [worklancio.in](https://www.worklancio.in).
 
 ## What I build
 
@@ -56,6 +59,8 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 Screens show demo data.
 
+[Read the full case study on my website](https://www.worklancio.in/work/worklancio)
+
 **Freelancer or agency chasing payments by email? I'll build you a portal your clients actually check, so you always know who has paid. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
 ---
@@ -86,6 +91,8 @@ Screens show demo data.
 
 Screens show demo data. The code and live system are private.
 
+[Read the full case study on my website](https://www.worklancio.in/work/projectly)
+
 **Run an agency or studio that bills by the hour? I'll build a portal around how your team already works, so every hour gets billed. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
 ---
@@ -114,6 +121,8 @@ Screens show demo data. The code and live system are private.
 
 Screens show demo data. The code and live system are private.
 
+[Read the full case study on my website](https://www.worklancio.in/work/ucs-crm)
+
 **Want one for your business? [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
 ---
@@ -128,7 +137,7 @@ Video, audio and captions in one browser editor. A multi-track timeline, noise r
 
 [Watch the full tutorial on YouTube (3:39)](https://www.youtube.com/watch?v=m36a8vHzkaY)
 
-[Live app](https://capmitra-app.vercel.app) · [Code](https://github.com/xaviermsd/capmitra-app)
+[Case study](https://www.worklancio.in/work/capmitra) · [Live app](https://capmitra-app.vercel.app) · [Code](https://github.com/xaviermsd/capmitra-app)
 
 ---
 
@@ -140,7 +149,7 @@ Set up the EvoFox Ronin wireless keyboard right in the browser over WebHID. All 
 
 An unofficial fan project, not affiliated with Amkette or EvoFox.
 
-[Live app](https://ronin.xaviermsd.workers.dev) · [Code](https://github.com/xaviermsd/evofox-ronin-configurator)
+[Case study](https://www.worklancio.in/work/evofox-ronin) · [Live app](https://ronin.xaviermsd.workers.dev) · [Code](https://github.com/xaviermsd/evofox-ronin-configurator)
 
 ---
 
@@ -154,7 +163,7 @@ Build ACF field groups from JSON. Copy a prompt with your real field names, past
 
 [Watch the full tutorial on YouTube (3:42)](https://youtu.be/FjoeySz05xw)
 
-[WordPress.org](https://wordpress.org/plugins/fieldpilot-for-acf/) · [Code](https://github.com/xaviermsd/fieldpilot-for-acf)
+[Case study](https://www.worklancio.in/work/fieldpilot) · [WordPress.org](https://wordpress.org/plugins/fieldpilot-for-acf/) · [Code](https://github.com/xaviermsd/fieldpilot-for-acf)
 
 ---
 
@@ -168,7 +177,7 @@ Build big WordPress menus without dragging. Add items under any parent, paste a 
 
 [Watch the full tutorial on YouTube (3:50)](https://www.youtube.com/watch?v=SljKJXaSWe8)
 
-[WordPress.org](https://wordpress.org/plugins/menunest-smart-menu-manager/) · [Code](https://github.com/xaviermsd/menunest-smart-menu-manager)
+[Case study](https://www.worklancio.in/work/menunest) · [WordPress.org](https://wordpress.org/plugins/menunest-smart-menu-manager/) · [Code](https://github.com/xaviermsd/menunest-smart-menu-manager)
 
 ---
 
@@ -184,7 +193,7 @@ A free moving volume calculator for moving, removal and storage companies. Custo
 
 [Watch the full guide on YouTube (4:33)](https://youtu.be/raBU40QdFeY)
 
-[Download the latest release](https://github.com/xaviermsd/moving-storage-volume-calculator/releases/latest) · [Code](https://github.com/xaviermsd/moving-storage-volume-calculator)
+[Case study](https://www.worklancio.in/work/volume-calculator) · [Download the latest release](https://github.com/xaviermsd/moving-storage-volume-calculator/releases/latest) · [Code](https://github.com/xaviermsd/moving-storage-volume-calculator)
 
 ---
 
@@ -228,15 +237,16 @@ Also: MySQL, WooCommerce, ACF, Elementor, REST APIs, Git and Shopify.
 
 <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/cta.png" width="100%" alt="Have a project in mind? Let's build it together. Tell me what slows your team down, and let's fix it."></a>
 
-I'm open to one-off builds and long-term work. Send a short note about what you need and I'll come back with questions or a clear next step.
+I'm open to one-off builds and long-term work. Send a short note about what you need and I'll come back with questions or a clear next step. You can also see my services and pricing at [worklancio.in](https://www.worklancio.in).
 
 <p align="center">
+  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit my website, worklancio.in"></a>&nbsp;
   <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/btn-whatsapp.png" height="46" alt="Chat on WhatsApp"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/btn-linkedin.png" height="46" alt="Connect on LinkedIn"></a>&nbsp;
-  <a href="https://www.instagram.com/harshprajapatiofficial/"><img src="assets/btn-instagram.png" height="46" alt="Follow on Instagram"></a>
+  <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/btn-linkedin.png" height="46" alt="Connect on LinkedIn"></a>
 </p>
 
 <p align="center">
+  <a href="https://www.instagram.com/harshprajapatiofficial/"><img src="assets/btn-instagram.png" height="46" alt="Follow on Instagram"></a>&nbsp;
   <a href="https://www.youtube.com/@harshprajapatiofficial"><img src="assets/btn-youtube.png" height="46" alt="Watch on YouTube"></a>&nbsp;
   <a href="https://profiles.wordpress.org/xaviermsd/"><img src="assets/btn-wordpress.png" height="46" alt="WordPress.org profile"></a>&nbsp;
   <a href="https://github.com/xaviermsd"><img src="assets/btn-github.png" height="46" alt="Follow on GitHub"></a>
