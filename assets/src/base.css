@@ -41,6 +41,7 @@ em { font-style: normal; }
 .hero h1 .hl { margin-top: 12px; }
 .hero .sub { position: absolute; left: 64px; right: 120px; top: 402px; font: 500 27px/1.4 "Inter"; color: #262b33; }
 .hero .pills { position: absolute; left: 64px; right: 40px; bottom: 42px; }
+.hero .site { position: absolute; right: 64px; bottom: 54px; font: 700 20px "Inter"; letter-spacing: .3px; color: var(--muted); }
 
 /* ---------- project covers (1200 x 600) ---------- */
 .work { width: 1200px; height: 600px; }
@@ -64,6 +65,7 @@ em { font-style: normal; }
 .cta .me { position: absolute; right: 64px; top: 92px; width: 270px; text-align: center; }
 .cta .me .av { width: 180px; height: 180px; margin: 0 auto; border-width: 7px; }
 .cta .me b { display: block; font: 800 30px "Plus Jakarta Sans"; letter-spacing: -.6px; margin-top: 22px; }
+.cta .site { position: absolute; left: 64px; bottom: 18px; font: 700 19px "Inter"; letter-spacing: .3px; color: rgba(255,255,255,.6); }
 .cta .me span { display: block; font: 600 19px/1.4 "Inter"; color: rgba(255,255,255,.66); margin-top: 6px; }
 
 /* ---------- contact buttons (transparent outside the pill) ---------- */
