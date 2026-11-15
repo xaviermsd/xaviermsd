@@ -187,9 +187,9 @@ Build big WordPress menus without dragging. Add items under any parent, paste a 
 
 BoxMetric is a free moving volume calculator for moving, removal and storage companies. Customers list their items room by room in cubic feet or cubic metres, see the truck, container and storage unit size they need, and send a ready-to-price quote that lands in a built-in leads screen. Free on WordPress.org.
 
-<a href="https://youtu.be/raBU40QdFeY"><img src="assets/video-msvcalc.jpg" width="100%" alt="Play the BoxMetric guide video on YouTube: room by room moving volume, the van that fits, quote requests and leads."></a>
+<a href="https://youtu.be/NWQb5rNFaXc"><img src="assets/video-msvcalc.jpg" width="100%" alt="Play the BoxMetric guide video on YouTube: room by room moving volume, the van that fits, quote requests and leads."></a>
 
-[Watch the full guide on YouTube (4:33)](https://youtu.be/raBU40QdFeY)
+[Watch the full guide on YouTube (4:33)](https://youtu.be/NWQb5rNFaXc)
 
 [Case study](https://www.worklancio.in/work/volume-calculator) · [WordPress.org](https://wordpress.org/plugins/boxmetric-moving-storage-volume-calculator/) · [Code](https://github.com/xaviermsd/boxmetric-moving-storage-volume-calculator)
 
