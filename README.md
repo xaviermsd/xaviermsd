@@ -1,22 +1,23 @@
 <p align="center">
-  <img src="assets/hero.png" width="100%" alt="Harsh Prajapati, freelance full-stack developer in Ahmedabad, India. I build the software your business runs on. Custom CRMs, web apps, WordPress and business automation.">
+  <img src="assets/hero.png" width="100%" alt="Harsh Prajapati, founder of Worklancio in Ahmedabad, India. We build the software your business runs on. Custom CRMs, web apps, WordPress and business automation.">
 </p>
 
 <p align="center">
-  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit my website, worklancio.in"></a>&nbsp;
+  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit our website, worklancio.in"></a>&nbsp;
   <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/btn-whatsapp.png" height="46" alt="Chat on WhatsApp"></a>&nbsp;
+  <a href="https://www.worklancio.in/contact"><img src="assets/btn-quote.png" height="46" alt="Get a free quote from Worklancio"></a>&nbsp;
   <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/btn-linkedin.png" height="46" alt="Connect on LinkedIn"></a>
 </p>
 
-## Hi, I'm Harsh
+## Hi, I'm Harsh, founder of Worklancio
 
-I'm a freelance full-stack developer in Ahmedabad, India. I've been building for the web since 2018 and freelancing since 2022.
+Worklancio is a web development company in Ahmedabad, India, founded by Harsh Prajapati. We have been building for the web since 2018.
 
-I work with business owners and small teams who have outgrown spreadsheets, scattered WhatsApp threads and manual follow-ups. I turn that into one clear system the whole team can use. You talk directly to the person writing the code, from the first call to launch and after.
+We work with business owners and small teams who have outgrown spreadsheets, scattered WhatsApp threads and manual follow-ups, and we turn that into one clear system the whole team can use. You talk directly to the person writing the code, from the first call to launch and after.
 
-See my services, pricing and full case studies at [worklancio.in](https://www.worklancio.in).
+See our services, pricing and full case studies at [worklancio.in](https://www.worklancio.in).
 
-## What I build
+## What we build
 
 **Custom CRMs and business dashboards**<br>
 See leads, projects, payments and your team's work in one place, with numbers you can trust.
@@ -38,7 +39,7 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 **Your client shouldn't have to email you to ask what they owe.**
 
-**Case study · my own build, Worklancio (Work. Track. Get Paid.).** I built one place for clients, time, invoices and payments. Every hour starts on a task and ends on an invoice, and each client gets a private portal that shows what's due, since when, and what every payment settled.
+**Case study · our own product, Worklancio (Work. Track. Get Paid.).** We built one place for clients, time, invoices and payments. Every hour starts on a task and ends on an invoice, and each client gets a private portal that shows what's due, since when, and what every payment settled.
 
 - Clients with sub-clients and brands, each project at its own rate
 - A live timer plus quick manual entries
@@ -59,9 +60,9 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 Screens show demo data.
 
-[Read the full case study on my website](https://www.worklancio.in/work/worklancio)
+[Read the full case study on our website](https://www.worklancio.in/work/worklancio)
 
-**Freelancer or agency chasing payments by email? I'll build you a portal your clients actually check, so you always know who has paid. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
+**Freelancer or agency chasing payments by email? We'll build you a portal your clients actually check, so you always know who has paid. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
 ---
 
@@ -91,9 +92,9 @@ Screens show demo data.
 
 Screens show demo data. The code and live system are private.
 
-[Read the full case study on my website](https://www.worklancio.in/work/projectly)
+[Read the full case study on our website](https://www.worklancio.in/work/projectly)
 
-**Run an agency or studio that bills by the hour? I'll build a portal around how your team already works, so every hour gets billed. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
+**Run an agency or studio that bills by the hour? We'll build a portal around how your team already works, so every hour gets billed. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
 ---
 
@@ -121,7 +122,7 @@ Screens show demo data. The code and live system are private.
 
 Screens show demo data. The code and live system are private.
 
-[Read the full case study on my website](https://www.worklancio.in/work/ucs-crm)
+[Read the full case study on our website](https://www.worklancio.in/work/ucs-crm)
 
 **Want one for your business? [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
 
@@ -233,13 +234,14 @@ Also: MySQL, WooCommerce, ACF, Elementor, REST APIs, Git and Shopify.
 
 ## Let's work together
 
-<a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/cta.png" width="100%" alt="Have a project in mind? Let's build it together. Tell me what slows your team down, and let's fix it."></a>
+<a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/cta.png" width="100%" alt="Have a project in mind? Let's build it together. Tell us what slows your team down, and let's fix it."></a>
 
-I'm open to one-off builds and long-term work. Send a short note about what you need and I'll come back with questions or a clear next step. You can also see my services and pricing at [worklancio.in](https://www.worklancio.in).
+We're open to one-off builds and long-term work. Send a short note about what you need and we'll come back with questions or a clear next step. You can also see our services and pricing at [worklancio.in](https://www.worklancio.in).
 
 <p align="center">
-  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit my website, worklancio.in"></a>&nbsp;
+  <a href="https://www.worklancio.in"><img src="assets/btn-website.png" height="46" alt="Visit our website, worklancio.in"></a>&nbsp;
   <a href="https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind."><img src="assets/btn-whatsapp.png" height="46" alt="Chat on WhatsApp"></a>&nbsp;
+  <a href="https://www.worklancio.in/contact"><img src="assets/btn-quote.png" height="46" alt="Get a free quote from Worklancio"></a>&nbsp;
   <a href="https://www.linkedin.com/in/iamharshprajapati/"><img src="assets/btn-linkedin.png" height="46" alt="Connect on LinkedIn"></a>
 </p>
 
