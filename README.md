@@ -33,6 +33,31 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ## Featured work
 
+### LabelzyKit: free shipping label cropper for Indian sellers
+
+<a href="https://labelzykit.vercel.app/"><img src="assets/banner-labelzykit.png" width="100%" alt="LabelzyKit banner: Labels, sorted. Free forever. The LabelzyKit label cropper with 7 demo labels found across Flipkart, Meesho and Amazon, a 0 files uploaded privacy tag, and 4x6, SKU sort and picklist options."></a>
+
+**Online sellers crop label PDFs every morning before pickup. It should not need a login, ads or a Pro plan.**
+
+**Our own product · a free web app for Flipkart and Meesho sellers.** We built LabelzyKit so sellers can drop their label PDFs, even mixed together, and get one sharp print file for a 4x6 thermal printer or plain A4 paper. Everything runs in the browser, so buyer names and addresses never leave the seller's device.
+
+- Flipkart and Meesho labels in one upload, found by their printed text
+- 4x6 in, 100x150 mm, 3x5 in, or A4 with 1, 2 or 4 labels and cut guides
+- Sort by SKU and size, courier or marketplace
+- Free picklist (PDF and CSV) with a courier and COD summary
+- Keep, drop or reorder tax invoices
+- Free forever: no ads, no login, no limits, works offline once loaded
+
+**Stack:** Astro · React · TypeScript · Tailwind CSS · pdf.js · pdf-lib · Web Workers
+
+[Try LabelzyKit free](https://labelzykit.vercel.app/) · [Flipkart label crop](https://labelzykit.vercel.app/flipkart-label-crop/) · [Meesho label crop](https://labelzykit.vercel.app/meesho-label-crop/)
+
+Screens show demo labels. The code is private.
+
+**Selling online and stuck doing the same task every day? We'll build a tool that does it for you. [Let's talk.](https://wa.me/919898528376?text=Hi%20Harsh%2C%20I%20saw%20LabelzyKit%20on%20your%20GitHub%20profile%20and%20have%20a%20project%20in%20mind.)**
+
+---
+
 ### Worklancio: a work and billing app for freelancers and agencies
 
 <a href="https://youtu.be/1IluZ9-uzC8"><img src="assets/banner-worklancio.png" width="100%" alt="Worklancio banner: Know what every client still owes. The Worklancio dashboard with a client portal tag 'Payment due since 49 days' and a part payment of CA$335 of CA$600 settled, using demo data."></a>
