@@ -33,13 +33,13 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ## Featured work
 
-### LabelzyKit: free shipping label cropper for Indian sellers
+### LabelzyKit: free toolkit for online sellers
 
-<a href="https://labelzykit.vercel.app/"><img src="assets/banner-labelzykit.png" width="100%" alt="LabelzyKit banner: Labels, sorted. Free forever. The LabelzyKit label cropper with 7 demo labels found across Flipkart, Meesho and Amazon, a 0 files uploaded privacy tag, and 4x6, SKU sort and picklist options."></a>
+<a href="https://labelzykit.vercel.app/"><img src="assets/banner-labelzykit.png" width="100%" alt="LabelzyKit banner: Labels, sorted. Free forever. A free toolkit for online sellers with label, PDF and image tools, showing the label cropper with demo labels, each marketplace marked, and a 0 files uploaded privacy tag."></a>
 
 **Online sellers crop label PDFs every morning before pickup. It should not need a login, ads or a Pro plan.**
 
-**Our own product · a free web app for Flipkart and Meesho sellers.** We built LabelzyKit so sellers can drop their label PDFs, even mixed together, and get one sharp print file for a 4x6 thermal printer or plain A4 paper. Everything runs in the browser, so buyer names and addresses never leave the seller's device.
+**Our own product · a free toolkit for online sellers, starting with the shipping label cropper.** We built LabelzyKit so sellers can drop their label PDFs, even mixed together, and get one sharp print file for a 4x6 thermal printer or plain A4 paper. Everything runs in the browser, so buyer names and addresses never leave the seller's device.
 
 - Flipkart and Meesho labels in one upload, found by their printed text
 - 4x6 in, 100x150 mm, 3x5 in, or A4 with 1, 2 or 4 labels and cut guides
