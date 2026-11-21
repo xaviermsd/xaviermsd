@@ -39,7 +39,7 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 **Online sellers crop label PDFs every morning before pickup. It should not need a login, ads or a Pro plan.**
 
-**Our own product · a free toolkit for online sellers, starting with the shipping label cropper.** We built LabelzyKit so sellers can drop their label PDFs, even mixed together, and get one sharp print file for a 4x6 thermal printer or plain A4 paper. Everything runs in the browser, so buyer names and addresses never leave the seller's device.
+**Our own product · a free toolkit for online sellers.** The shipping label cropper is live now; PDF tools and image tools are coming soon. We built LabelzyKit so sellers can drop their label PDFs, even mixed together, and get one sharp print file for a 4x6 thermal printer or plain A4 paper. Everything runs in the browser, so buyer names and addresses never leave the seller's device.
 
 - Flipkart and Meesho labels in one upload, found by their printed text
 - 4x6 in, 100x150 mm, 3x5 in, or A4 with 1, 2 or 4 labels and cut guides
