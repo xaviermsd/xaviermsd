@@ -35,7 +35,7 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 
 ### LabelzyKit: free toolkit for online sellers
 
-<a href="https://labelzykit.vercel.app/"><img src="assets/banner-labelzykit.png" width="100%" alt="LabelzyKit banner: Labels, sorted. Free forever. A free toolkit for online sellers with label, PDF and image tools, showing the label cropper with demo labels, each marketplace marked, and a 0 files uploaded privacy tag."></a>
+<a href="https://youtu.be/txTRhpg-hgk"><img src="assets/banner-labelzykit.png" width="100%" alt="LabelzyKit banner: Labels, sorted. Free forever. A free toolkit for online sellers with label, PDF and image tools, showing the label cropper with demo labels, each marketplace marked, and a 0 files uploaded privacy tag."></a>
 
 **Online sellers crop label PDFs every morning before pickup. It should not need a login, ads or a Pro plan.**
 
@@ -47,6 +47,10 @@ Connect the tools you already pay for, so the repetitive work runs on its own.
 - Free picklist (PDF and CSV) with a courier and COD summary
 - Keep, drop or reorder tax invoices
 - Free forever: no ads, no login, no limits, works offline once loaded
+
+<a href="https://youtu.be/txTRhpg-hgk"><img src="assets/video-labelzykit.jpg" width="100%" alt="Play the LabelzyKit quick tour on YouTube: drop Flipkart and Meesho label PDFs, every label found and cropped, sorted by SKU, one print file."></a>
+
+[Watch the quick tour on YouTube (0:57)](https://youtu.be/txTRhpg-hgk)
 
 **Stack:** Astro · React · TypeScript · Tailwind CSS · pdf.js · pdf-lib · Web Workers
 
